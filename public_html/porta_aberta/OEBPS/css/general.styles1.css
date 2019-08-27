@@ -1,0 +1,205 @@
+@font-face {
+	font-family: "OpenDyslexic3_Bold";
+	font-weight: bold;
+	font-style: normal;
+	src: url(../fonts/OpenDyslexic3-Bold.ttf);
+}
+@font-face {
+	font-family: "Anonymous-Pro";
+	font-weight: normal;
+	font-style: normal;
+	src: url(../fonts/Anonymous-Pro.ttf);
+}
+@font-face {
+	font-family: "Didot";
+	font-weight: normal;
+	font-style: normal;
+	src: url(../fonts/Didot.ttf);
+}
+@font-face {
+	font-family: "Droid-Sans-Mono";
+	font-weight: normal;
+	font-style: normal;
+	src: url(../fonts/Droid-Sans-Mono.ttf);
+}
+@font-face {
+	font-family: "Droid-Sans";
+	font-weight: normal;
+	font-style: normal;
+	src: url(../fonts/Droid-Sans.ttf);
+}
+@font-face {
+	font-family: "Droid-Serif";
+	font-weight: normal;
+	font-style: normal;
+	src: url(../fonts/Droid-Serif.ttf);
+}
+@font-face {
+	font-family: "Lato";
+	font-weight: normal;
+	font-style: normal;
+	src: url(../fonts/Lato.ttf);
+}
+@font-face {
+	font-family: "Open-Sans";
+	font-weight: normal;
+	font-style: normal;
+	src: url(../fonts/Open-Sans.ttf);
+}
+@font-face {
+	font-family: "OpenDyslexic3";
+	font-weight: normal;
+	font-style: normal;
+	src: url(../fonts/OpenDyslexic3.ttf);
+}
+@font-face {
+	font-family: "Roboto-Mono";
+	font-weight: normal;
+	font-style: normal;
+	src: url(../fonts/Roboto-Mono.ttf);
+}
+@font-face {
+	font-family: "Roboto-Slab";
+	font-weight: normal;
+	font-style: normal;
+	src: url(../fonts/Roboto-Slab.ttf);
+}
+@font-face {
+	font-family: "Roboto";
+	font-weight: normal;
+	font-style: normal;
+	src: url(../fonts/Roboto.ttf);
+}
+@font-face {
+	font-family: "Source-Code-Pro";
+	font-weight: normal;
+	font-style: normal;
+	src: url(../fonts/Source-Code-Pro.ttf);
+}
+@font-face {
+	font-family: "Source-Sans-Pro";
+	font-weight: normal;
+	font-style: normal;
+	src: url(../fonts/Source-Sans-Pro.ttf);
+}
+@font-face {
+	font-family: "Tinos";
+	font-weight: normal;
+	font-style: normal;
+	src: url(../fonts/Tinos.ttf);
+}
+
+.bottom_bar {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 120px;
+	background-color: #DAD9D9;
+	z-index: 1000;
+}
+span.next {
+	/*	position: absolute;
+	top: 28px;
+	right: 460px; */
+	width: 80px;
+	height: 70px;
+	background-image: url(../assets/images/next.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: middle;
+	}
+span.prev {
+	/*	position: absolute;
+	top: 28px;
+	left: 490px; */
+	width: 80px;
+	height: 70px;
+	background-image: url(../assets/images/prev.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: middle;
+	}
+div.lion_icon {
+	position: absolute;
+	top: 28px;
+	left: 20px;
+	width: 80px;
+	height: 70px;
+	background-image: url(../assets/images/lion.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.ch_title {
+	position: absolute;
+	bottom: 19px;
+	left: 560px;
+	font-size: 42px;
+	font-family: OpenDyslexic3_bold;
+	word-spacing: -10px;
+	line-height: 55px;
+	height: 80px;
+}
+.ch_title1 {
+	position: absolute;
+	bottom: 19px;
+	left: 760px;
+	font-size: 39px;
+	font-family: OpenDyslexic3;
+	word-spacing: -10px;
+	line-height: 55px;
+	height: 80px;
+}
+.play_btn {
+	position: absolute;
+	bottom: 120px;
+	left: 760px;
+	font-size: 50px;
+	font-family: OpenDyslexic3;
+	word-spacing: -10px;
+	line-height: 55px;
+	height: 80px;
+	color: white;
+	width: 410px;
+	border: 7px solid white;
+	text-align: center;
+	padding: 30px 30px 10px 30px;
+	border-radius: 20px;
+	background-color: #37D100;
+	cursor: pointer;
+}
+a { text-decoration: none; color: inherit; }
+
+.highlight {
+	background-color: rgba(102, 0, 255, 0.7) !important;
+    color: white !important;
+	border-color: transparent !important;
+	border-radius: 0.2em !important;
+	display: inline-block;
+	padding: 0px 15px 20px 15px;
+	margin: 0px;
+}
+.-epub-media-overlay-active {
+	background-color: rgba(102, 0, 255, 0.7) !important;
+    color: white !important;
+	border-color: transparent !important;
+	border-radius: 0.2em !important;
+	display: inline-block;
+	padding: 0px 15px 20px 15px;
+	margin: 0px;
+}
+#page_w1, #page_w2, #page_w3, #page_w4, #page_w5, #page_w6, #page_w7 {
+	border-color: transparent !important;
+	border-radius: 0.2em !important;
+	display: inline-block;
+	padding: 0px 15px 20px 15px;
+	margin: 0px;
+}
+#page_s1, #page_s2, #page_s3, #page_s4, #page_s5 {
+	padding: 0px !important;
+	margin: 0px;
+}

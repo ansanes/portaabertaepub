@@ -1,0 +1,485 @@
+@import "../../css/general.styles.css";
+body > div.container {
+	position: relative;
+	overflow: hidden;
+	width: 2048px;
+	height: 1536px;
+	/* border: 1px solid; */
+	background-image: url(images/back.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.head {
+	font-family: "OpenDyslexic3";
+	text-align: center;
+	font-size: 60px;
+	padding-top: 120px;
+}
+.head_w {
+	font-family: "OpenDyslexic3_Bold";
+	text-align: center;
+	font-size: 70px;
+	line-height: 120px;
+	padding-top: 120px;
+	color: white;
+}
+.for_click {
+	position: absolute;
+	bottom: 0px;
+	right: 50px;
+/*	border: 1px solid red; */
+	width: 800px;
+	height: 1050px;
+	border-radius: 50px;
+	background-color: #0499FF;
+	text-align: center;
+	padding: 60px;
+}
+.bottom_bar {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	/* border: 1px solid; */
+	width: 100%;
+	height: 120px;
+	background-color: #DAD9D9;
+}
+.icon {width: 300px;height: 300px;position: relative;top: 60px;left: 60px;}
+.text {
+	font-family: "OpenDyslexic3_Bold";
+	text-align: center;
+	font-size: 80px;
+	margin: 0px;
+	position: relative;
+	top: -100px;
+	left: 170px;
+}
+.b_text {
+	font-family: "OpenDyslexic3_Bold";
+	text-align: center;
+	font-size: 70px;
+	margin: 0px 0px 0px 62px;
+	/* position: relative; */
+	/* top: 0px; */
+	/* left: 50px; */
+}
+.b_text1 {
+	font-family: "OpenDyslexic3_Bold";
+	text-align: center;
+	font-size: 70px;
+	margin: 0px;
+	position: relative;
+	top: 0px;
+	left: -80px;
+	color: gray;
+}
+.b_text_w {
+	font-family: "OpenDyslexic3_Bold";
+	text-align: center;
+	font-size: 70px;
+	margin: 0px;
+	position: relative;
+	top: 0px;
+	left: -80px;
+}
+.b_text_w1 {
+	font-family: "OpenDyslexic3_Bold";
+	text-align: center;
+	font-size: 70px;
+	margin: 0px;
+	position: relative;
+	top: 0px;
+	line-height: 164px;
+}
+.b_text_w2 {
+	font-family: "OpenDyslexic3_Bold";
+	text-align: center;
+	font-size: 70px;
+	margin: 0px;
+	position: relative;
+	top: 0px;
+	line-height: 93px;
+}
+.img_1 { width: 100%; }
+.wrong {
+	width: 760px;
+	height: 430px;
+	cursor: pointer;
+	/* border: 4px solid; */
+	margin: 0 auto;
+	border-radius: 50px;
+	background-color: white;
+}
+.right {
+	width: 760px;
+	height: 430px;
+	cursor: pointer;
+	/* border: 4px solid; */
+	margin: 50px auto;
+	border-radius: 50px;
+	background-color: white;
+}
+.sound {
+	position: absolute;
+	top: 560px;
+	left: 200px;
+	width: 360px;
+	height: 360px;
+	cursor: pointer;
+}
+div.exit {
+	font-family: "OpenDyslexic3_Bold";
+	position: absolute;
+	top: 10px;
+	left: 100px;
+	width: 400px;
+	height: 101px;
+	cursor: pointer;
+	/*	border: 1px solid; */
+	background-image: url(images/exit.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+div.restart {
+	font-family: "OpenDyslexic3_Bold";
+	position: absolute;
+	top: 10px;
+	left: 580px;
+	width: 510px;
+	height: 101px;
+	cursor: pointer;
+	/*	border: 1px solid; */
+	background-image: url(images/restart.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+div.cont {
+	font-family: "OpenDyslexic3_Bold";
+	position: absolute;
+	top: 8px;
+	right: 50px;
+	width: 700px;
+	height: 101px;
+	cursor: pointer;
+	/* border: 1px solid; */
+	background-image: url(images/cont.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+div.cont_g {
+	font-family: "OpenDyslexic3_Bold";
+	position: absolute;
+	top: 8px;
+	right: 50px;
+	width: 700px;
+	height: 101px;
+	cursor: pointer;
+	/* border: 1px solid; */
+	background-image: url(images/cont1.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+div.done {
+	font-family: "OpenDyslexic3_Bold";
+	position: absolute;
+	top: 8px;
+	right: 50px;
+	width: 700px;
+	height: 101px;
+	cursor: default;
+	/* border: 1px solid; */
+	background-image: url(images/done.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+img.cont {
+	font-family: "OpenDyslexic3_Bold";
+	position: absolute;
+	top: 10px;
+	right: 100px;
+	width: 710px;
+	height: 101px;
+	cursor: pointer;
+}
+img.img1 {width: 70px;height: 50px;vertical-align: middle;}
+.pinkbulb { transform: scale(1.1);-webkit-transform: scale(1.1); }
+.right1 { border: 20px solid #80E015; border-radius: 70px; transform: scale(1);-webkit-transform: scale(1); background-color: #D7E4BD; }
+.wrong {/* border: none; *//* border-radius: 70px; *//* transform: scale(1);-webkit-transform: scale(1); */}
+.wrong1 { border: 20px solid red; border-radius: 70px; transform: scale(1);-webkit-transform: scale(1); background-color: #F8CBAD; }
+.text_0 {text-align: left;font-size: 60px;color: white;padding: 0px 20px 0px 40px;margin-top: 65px;font-family: "OpenDyslexic3_Bold";line-height: 64px;}
+.disable { 	position: absolute; bottom: 0px; right: 0px; /*border: 1px solid;*/ width: 840px; height: 120px; z-index: 300;}
+.pos_01 { 	position: absolute; top: 0px; left: 0px; z-index: 10; }
+#screen3 {/* background-color: #0499FF; *//* width: 100%; *//* height: 100%; */}
+.well_done {position: absolute;top: 540px;left: 460px;width: 1200px;height: 750px;border-radius: 100px;background-color: white;}
+.float_l {float: left;width: 400px;height: 400px;padding: 160px 100px;}
+
+.box1{
+top: 0px;
+left: 0px;
+width: 2048px;
+height: 1536px;
+background-color: #0099FF;
+}
+.box2{top: 270px;left: 130px;width: 1718px;height: 796px;background-color: #0099FF;border-radius: 90px;position: absolute;}
+.box3{top: 220px;left: 130px;width: 1718px;height: 1276px;background-color: #0099FF;border-radius: 90px;position: absolute;}
+.box_white1{top: 277px;left: 830px;width: 558px;height: 212px;background-color: #FFFFFF;border-radius: 46px;position: absolute;}
+.box_white2{top: 520px;left: 830px;width: 558px;height: 212px;background-color: #FFFFFF;border-radius: 46px;position: absolute;}
+.box_white3{top: 761px;left: 830px;width: 558px;height: 212px;background-color: #FFFFFF;border-radius: 46px;position: absolute;}
+.box_white4{top: 761px;left: 63px;width: 500px;height: 212px;background-color: #FFFFFF;border-radius: 46px;position: absolute;}
+.box_white5{top: 761px;left: 579px;width: 500px;height: 212px;background-color: #FFFFFF;border-radius: 46px;position: absolute;}
+.box_white6{top: 761px;left: 1094px;width: 500px;height: 212px;background-color: #FFFFFF;border-radius: 46px;position: absolute;}
+.posi{
+	position: absolute;
+	top: 410px;
+	left: 950px;
+}
+.posi1{
+	position: absolute;
+	top: 890px;
+	left: 1040px;
+}
+.posi2{
+	position: absolute;
+	top: -2px;
+	left: 90px;
+}
+.posi3{
+	position: absolute;
+	top: -110px;
+	left: -216px;
+}
+.posi4{
+	position: absolute;
+	top: -150px;
+	left: 670px;
+}
+.posi5{
+	position: absolute;
+	top: 330px;
+	left: 670px;
+}
+.posi6{
+	position: absolute;
+	top: 730px;
+	left: 670px;
+}
+.frame_1{
+	position: absolute;
+	top: 420px;
+	left: 330px;
+	width: 310px;
+	height: 300px;
+	border: 30px solid white;
+	transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	z-index: 10;
+}
+.frame_2{
+	position: absolute;
+	top: 523px;
+	left: 379px;
+	width: 310px;
+	height: 300px;
+	border: 30px solid white;
+	transform: rotate(53deg);-webkit-transform: rotate(53deg);
+	z-index: 10;
+}
+.frame_3{
+	position: absolute;
+	top: 628px;
+	left: 410px;
+	width: 310px;
+	height: 300px;
+	border: 30px solid white;
+	transform: rotate(40deg);-webkit-transform: rotate(40deg);
+	z-index: 10;
+}
+.frame_4{
+	position: absolute;
+	top: 219px;
+	left: 670px;
+	width: 310px;
+	height: 300px;
+	border: 30px solid white;
+	z-index: 10;
+}
+.frame_5{
+	position: absolute;
+	top: 219px;
+	left: 1130px;
+	width: 310px;
+	height: 300px;
+	border: 30px solid white;
+	z-index: 10;
+}
+.frame_6{
+	position: absolute;
+	top: 219px;
+	left: 209px;
+	width: 310px;
+	height: 300px;
+	border: 30px solid white;
+	z-index: 10;
+}
+.frame_7{
+	position: absolute;
+	top: 469px;
+	left: 209px;
+	width: 310px;
+	height: 300px;
+	border: 30px solid white;
+	z-index: 10;
+}
+.frame_8{
+	position: absolute;
+	top: 129px;
+	left: 674px;
+	width: 310px;
+	height: 300px;
+	border: 30px solid white;
+	z-index: 10;
+}
+.frame_9{
+	position: absolute;
+	top: 129px;
+	left: 1132px;
+	width: 310px;
+	height: 300px;
+	border: 30px solid white;
+	z-index: 10;
+}
+.frame_10{
+	position: absolute;
+	top: 129px;
+	left: 209px;
+	width: 310px;
+	height: 300px;
+	border: 30px solid white;
+	z-index: 10;
+}
+.frame_11{
+	position: absolute;
+	top: 129px;
+	left: 1169px;
+	width: 750px;
+	height: 470px;
+	border: 30px solid white;
+	z-index: 10;
+	box-shadow: 1px 1px 30px black;
+}
+.frame_12{
+	position: absolute;
+	top: 769px;
+	left: 1159px;
+	width: 750px;
+	height: 470px;
+	border: 30px solid white;
+	z-index: 10;
+	box-shadow: 1px 1px 30px black;
+}
+.frame_13{
+	position: absolute;
+	top: 769px;
+	left: 80px;
+	width: 750px;
+	height: 470px;
+	border: 30px solid white;
+	z-index: 10;
+	box-shadow: 1px 1px 30px black;
+}
+.frame_14{
+	position: absolute;
+	top: 232px;
+	left: 89px;
+	width: 700px;
+	height: 450px;
+	border: 30px solid white;
+	z-index: 10;
+}
+.frame_15{
+	position: absolute;
+	top: 806px;
+	left: 89px;
+	width: 700px;
+	height: 470px;
+	border: 30px solid white;
+	z-index: 10;
+}
+.play{
+	font-family: "OpenDyslexic3";
+	text-align: center;
+	font-size: 50px;
+	padding:0.5px;
+	background-color: #37D100;
+	width: 239%;
+	height: 120px;
+	line-height: 105px;
+	color: white;
+	border: 8px solid white;
+	border-radius: 25px;
+}
+div.next_16 {
+    font-family: "OpenDyslexic3_Bold";
+    position: absolute;
+    top: 28px;
+    right: 516px;
+    width: 890px;
+    height: 101px;
+    cursor: pointer;
+    /* border: 1px solid; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 43px;
+}
+.red{
+color: #EA2D46;
+}
+.yellow{
+color: #F79E00;
+}
+.green{
+color: #80E015;
+}
+.b_text_w3 {
+	font-family: "OpenDyslexic3";
+	text-align: left;
+	font-size: 60px;
+	margin-left: 303px;
+	position: relative;
+	line-height: 69px;
+	top: 393px;
+}
+
+.highlight {
+	background-color: rgba(102, 0, 255, 0.7) !important;
+    color: white !important;
+	border-color: transparent !important;
+	border-radius: 0.2em !important;
+	display: inline-block;
+	padding: 0px 15px 20px 15px;
+	margin: 0px;
+}
+.-epub-media-overlay-active {
+	background-color: rgba(102, 0, 255, 0.7) !important;
+    color: white !important;
+	border-color: transparent !important;
+	border-radius: 0.2em !important;
+	display: inline-block;
+	padding: 0px 15px 20px 15px;
+	margin: 0px;
+}
+#page_w1, #page_w2, #page_w3, #page_w4, #page_w5, #page_w6, #page_w7 {
+	border-color: transparent !important;
+	border-radius: 0.2em !important;
+	display: inline-block;
+	padding: 0px 15px 20px 15px;
+	margin: 0px;
+}
+#page_s1, #page_s2, #page_s3, #page_s4, #page_s5 {
+	padding: 0px !important;
+	margin: 0px;
+}

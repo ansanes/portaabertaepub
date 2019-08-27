@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ibooks="http://apple.com/ibooks/html-extensions">
+	<head>
+		<meta charset="utf-8"/>
+    	<title>Matching Activity</title>
+		<meta name="viewport" content="width=2048, height=1536" /> 
+		<link rel="stylesheet" type="text/css" href="../../css/general.styles.css" />
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<link rel="stylesheet" type="text/css" href="styles1.css" />
+		<script type="text/javascript" src="../../js/jquery.js"></script>
+                <script type="text/javascript" src="../../js/pageFunctions.js"></script>
+		<script type="text/javascript" src="custom.js"></script>
+    </head>
+<body>
+
+<div class="container">
+<!--
+<div class="d_audio d_none">Audio Off</div>
+<div class="a_audio d_none">Audio On</div>
+-->
+
+<div id="screen1" style="display: block;">
+<div class="container1">
+<div class="blue_back"></div>
+<div class="head_0"><span id="page_s1"></span><span id="page_w1">Matching Activity</span></div>
+<div class="head_text"><span id="page_w2">Do you want to play a matching<br/>game with some different sports?</span></div>
+<img src="images/sort.png" class="pic_img1" alt="IMAGE. Children playing sports. END IMAGE." />
+<div class="play_btn pos">PLAY</div>
+</div>
+</div>
+
+<div id="screen2" style="display: none;">
+<p class="b_text_w"><span>Here are some pictures of children playing different sports!</span></p>
+<div class="box2">
+<img class="frame_4" id="img01a" src="images/sport1.jpg" alt="IMAGE. Girls playing soccer in a school soccer pitch. END IMAGE"/>
+<img class="frame_5" id="img01b" src="images/sport2.jpg" alt="IMAGE. A young boy with a white helmet riding a skateboard. END IMAGE"/>
+<img class="frame_6" id="img01c" src="images/sport3.jpg" alt="IMAGE. Children in wheelcahirs playing basketball. END IMAGE"/>
+</div>
+<div class="bottom_bar">
+	<div class="exit" id="exit2">
+		<p class="b_text">Exit</p>
+	</div>
+	<div class="restart" id="restart_2">
+		<p class="b_text">Restart</p>
+	</div>
+	<div class="cont" id="cont2">
+		<p class="b_text1">Continue</p>
+	</div>
+	<div class="disable"></div>
+</div>
+</div>
+
+<div id="screen3" style="display: none;">
+<p class="b_text_w"><span>Pick which part of the body moves the<br/>most in each sport!</span></p>
+<p class="b_text_w d_none"><span>That&#x2019;s not the part of the body that moves the most! Try again!</span></p>
+<div class="border_3"></div>
+<div class="frame_img">
+<img src="images/sport1.jpg" class="icon r3 d_block" alt="IMAGE. Girls playing soccer in a school soccer pitch. END IMAGE" />
+<img src="images/sport2.jpg" class="icon r4 d_none" alt="IMAGE. A young boy with a white helmet riding a skateboard. END IMAGE" />
+<img src="images/sport3.jpg" class="icon r5 d_none" alt="IMAGE. Children in wheelcahirs playing basketball. END IMAGE" />
+</div>
+<div class="click_area">
+<div class="arms">
+<img src="images/right_sign.png" class="right_sign d_none" alt="" />
+<img src="images/wrong_sign.png" class="wrong_sign d_none" alt="" />
+<p class="btn_text btn">Arms</p>
+<img id="square_arms3" src="images/sport3.jpg" class="right_ans d_none" alt="IMAGE. Children in wheelcahirs playing basketball. END IMAGE" />
+</div>
+<div class="torso btn">
+<img src="images/right_sign.png" class="right_sign d_none" alt="" />
+<img src="images/wrong_sign.png" class="wrong_sign d_none" alt="" />
+<p class="btn_text">Torso</p>
+<img id="square_torso3" src="images/sport2.jpg" class="right_ans d_none" alt="IMAGE. A young boy with a white helmet riding a skateboard. END IMAGE" />
+</div>
+<div class="legs btn">
+<img src="images/right_sign.png" class="right_sign d_none" alt="" />
+<img src="images/wrong_sign.png" class="wrong_sign d_none" alt="" />
+<p class="btn_text">Legs</p>
+<img id="square_legs3" src="images/sport1.jpg" class="right_ans d_none" alt="IMAGE. Girls playing soccer in a school soccer pitch. END IMAGE" />
+</div>
+</div>
+<div class="bottom_bar">
+	<div class="exit" id="exit3">
+		<p class="b_text">Exit</p>
+	</div>
+	<div class="restart" id="restart_3">
+		<p class="b_text">Restart</p>
+	</div>
+	<div class="cont" id="cont3">
+		<p class="b_text1">Continue</p>
+	</div>
+	<div class="disable"></div>
+</div>
+<div class="disable_b"></div>
+</div>
+
+<div id="screen4" style="display: none;">
+<p class="b_text_w"><span>Pick which part of the body moves the<br/>most in each sport!</span></p>
+<p class="b_text_w d_none"><span>That&#x2019;s not the part of the body that moves the most! Try again!</span></p>
+<div class="border_3"></div>
+<div class="frame_img">
+<img src="images/sport1.jpg" class="icon r3 d_none" alt="IMAGE. Girls playing soccer in a school soccer pitch. END IMAGE" />
+<img src="images/sport2.jpg" class="icon r4 d_block" alt="IMAGE. A young boy with a white helmet riding a skateboard. END IMAGE" />
+<img src="images/sport3.jpg" class="icon r5 d_none" alt="IMAGE. Children in wheelcahirs playing basketball. END IMAGE" />
+</div>
+<div class="click_area">
+<div class="arms">
+<img src="images/right_sign.png" class="right_sign d_none" alt="" />
+<img src="images/wrong_sign.png" class="wrong_sign d_none" alt="" />
+<p class="btn_text btn">Arms</p>
+<img id="square_arms4" src="images/sport3.jpg" class="right_ans d_none" alt="IMAGE. Children in wheelcahirs playing basketball. END IMAGE" />
+</div>
+<div class="torso btn">
+<img src="images/right_sign.png" class="right_sign d_none" alt="" />
+<img src="images/wrong_sign.png" class="wrong_sign d_none" alt="" />
+<p class="btn_text">Torso</p>
+<img id="square_torso4" src="images/sport2.jpg" class="right_ans d_none" alt="IMAGE. A young boy with a white helmet riding a skateboard. END IMAGE" />
+</div>
+<div class="legs btn">
+<img src="images/right_sign.png" class="right_sign d_none" alt="" />
+<img src="images/wrong_sign.png" class="wrong_sign d_none" alt="" />
+<p class="btn_text">Legs</p>
+<img id="square_legs4" src="images/sport1.jpg" class="right_ans d_none" alt="IMAGE. Girls playing soccer in a school soccer pitch. END IMAGE" />
+</div>
+</div>
+<div class="bottom_bar">
+	<div class="exit" id="exit4">
+		<p class="b_text">Exit</p>
+	</div>
+	<div class="restart" id="restart_4">
+		<p class="b_text">Restart</p>
+	</div>
+	<div class="cont" id="cont4">
+		<p class="b_text1">Continue</p>
+	</div>
+	<div class="disable"></div>
+</div>
+<div class="disable_b"></div>
+</div>
+
+<div id="screen5" style="display: none;">
+<p class="b_text_w"><span>Pick which part of the body moves the<br/>most in each sport!</span></p>
+<p class="b_text_w d_none"><span>That&#x2019;s not the part of the body that moves the most! Try again!</span></p>
+<div class="border_3"></div>
+<div class="frame_img">
+<img src="images/sport1.jpg" class="icon r3 d_none" alt="IMAGE. Girls playing soccer in a school soccer pitch. END IMAGE" />
+<img src="images/sport2.jpg" class="icon r4 d_none" alt="IMAGE. A young boy with a white helmet riding a skateboard. END IMAGE" />
+<img src="images/sport3.jpg" class="icon r5 d_block" alt="IMAGE. Children in wheelcahirs playing basketball. END IMAGE" />
+</div>
+<div class="click_area">
+<div class="arms">
+<img src="images/right_sign.png" class="right_sign d_none" alt="" />
+<img src="images/wrong_sign.png" class="wrong_sign d_none" alt="" />
+<p class="btn_text btn">Arms</p>
+<img id="square_arms5" src="images/sport3.jpg" class="right_ans d_none" alt="IMAGE. Children in wheelcahirs playing basketball. END IMAGE" />
+</div>
+<div class="torso btn">
+<img src="images/right_sign.png" class="right_sign d_none" alt="" />
+<img src="images/wrong_sign.png" class="wrong_sign d_none" alt="" />
+<p class="btn_text">Torso</p>
+<img id="square_torso5" src="images/sport2.jpg" class="right_ans d_none" alt="IMAGE. A young boy with a white helmet riding a skateboard. END IMAGE" />
+</div>
+<div class="legs btn">
+<img src="images/right_sign.png" class="right_sign d_none" alt="" />
+<img src="images/wrong_sign.png" class="wrong_sign d_none" alt="" />
+<p class="btn_text">Legs</p>
+<img id="square_legs5" src="images/sport1.jpg" class="right_ans d_none" alt="IMAGE. Girls playing soccer in a school soccer pitch. END IMAGE" />
+</div>
+</div>
+<div class="bottom_bar">
+	<div class="exit" id="exit5">
+		<p class="b_text">Exit</p>
+	</div>
+	<div class="restart" id="restart_5">
+		<p class="b_text">Restart</p>
+	</div>
+	<div class="cont" id="cont5">
+		<p class="b_text1">Continue</p>
+	</div>
+	<div class="disable"></div>
+</div>
+<div class="disable_b"></div>
+</div>
+
+<div id="screen5a" style="display: none;">
+<p class="b_text_w"><span>Well done! You correctly picked the parts of<br/>the body that move the most!</span></p>
+<div class="border_3"></div>
+<div class="click_area">
+<div class="arms right">
+<img src="images/right_sign.png" class="right_sign" alt="" />
+<p class="btn_text btn">Arms</p>
+<img id="square_arms5a" src="images/sport3.jpg" class="right_ans" alt="IMAGE. Children in wheelcahirs playing basketball. END IMAGE" />
+</div>
+<div class="torso btn right">
+<img src="images/right_sign.png" class="right_sign" alt="" />
+<p class="btn_text">Torso</p>
+<img id="square_torso5a" src="images/sport2.jpg" class="right_ans" alt="IMAGE. A young boy with a white helmet riding a skateboard. END IMAGE" />
+</div>
+<div class="legs btn right">
+<img src="images/right_sign.png" class="right_sign" alt="" />
+<p class="btn_text">Legs</p>
+<img id="square_legs5a" src="images/sport1.jpg" class="right_ans" alt="IMAGE. Girls playing soccer in a school soccer pitch. END IMAGE" />
+</div>
+</div>
+<div class="bottom_bar">
+	<div class="exit" id="exit5a">
+		<p class="b_text">Exit</p>
+	</div>
+	<div class="restart" id="restart_5a">
+		<p class="b_text">Restart</p>
+	</div>
+	<div class="cont_g" id="cont5a">
+		<p class="b_text1">Continue</p>
+	</div>
+	<div class="disable d_none"></div>
+</div>
+<div class="disable_b"></div>
+</div>
+
+<div id="screen6" style="display: none;">
+<p class="b_text_w"><span>Which sports do you know?</span></p>
+<div class="border_3"></div>
+<img class="pic_1" src="images/sport3.jpg" alt="IMAGE. Children in wheelcahirs playing basketball. END IMAGE"/>
+<img class="pic_2" src="images/sport1.jpg" alt="IMAGE. Girls playing soccer in a school soccer pitch. END IMAGE"/>
+<img class="pic_3" src="images/sport2.jpg" alt="IMAGE. A young boy with a white helmet riding a skateboard. END IMAGE"/>
+<div class="btn_1">BASKET<br/>BALL</div>
+<div class="btn_2">SOCCER</div>
+<div class="btn_3">SKATE<br/>BOARDING</div>
+<div class="bottom_bar">
+	<div class="exit" id="exit6">
+		<p class="b_text">Exit</p>
+	</div>
+	<div class="restart" id="restart_6">
+		<p class="b_text">Restart</p>
+	</div>
+	<div class="done d_block" id="cont6">
+		<a href="../16/page.xhtml"><div class="b_text_w1">Done</div></a>
+	</div>
+</div>
+<div class="disable_b"></div>
+</div>
+
+<audio id="ans_correct">
+<source src="audio/answer_correct.ogg" type="audio/ogg"/>
+<source src="audio/answer_correct.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="ans_wrong">
+<source src="audio/answer_wrong.ogg" type="audio/ogg"/>
+<source src="audio/answer_wrong.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="activity_done">
+<source src="audio/activity_done.ogg" type="audio/ogg"/>
+<source src="audio/activity_done.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="activity_start">
+<source src="audio/activity_start.ogg" type="audio/ogg"/>
+<source src="audio/activity_start.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="menu_continue">
+<source src="audio/menu_continue.ogg" type="audio/ogg"/>
+<source src="audio/menu_continue.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="menu_exit">
+<source src="audio/menu_exit.ogg" type="audio/ogg"/>
+<source src="audio/menu_exit.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="menu_restart">
+<source src="audio/menu_restart.ogg" type="audio/ogg"/>
+<source src="audio/menu_restart.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="answer_incorrect">
+<source src="audio/ans/answer_incorrect.ogg" type="audio/ogg"/>
+<source src="audio/ans/answer_incorrect.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="basketball">
+<source src="audio/ans/basketball.ogg" type="audio/ogg"/>
+<source src="audio/ans/basketball.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="basketball_correct">
+<source src="audio/ans/basketball_correct.ogg" type="audio/ogg"/>
+<source src="audio/ans/basketball_correct.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="here_are_some_pictures">
+<source src="audio/ans/here_are_some_pictures.ogg" type="audio/ogg"/>
+<source src="audio/ans/here_are_some_pictures.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="pick_which_part_body">
+<source src="audio/ans/pick_which_part_body.ogg" type="audio/ogg"/>
+<source src="audio/ans/pick_which_part_body.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="skateboarding">
+<source src="audio/ans/skateboarding.ogg" type="audio/ogg"/>
+<source src="audio/ans/skateboarding.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="skateboard_correct">
+<source src="audio/ans/skateboard_correct.ogg" type="audio/ogg"/>
+<source src="audio/ans/skateboard_correct.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="soccer">
+<source src="audio/ans/soccer.ogg" type="audio/ogg"/>
+<source src="audio/ans/soccer.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="soccer_correct">
+<source src="audio/ans/soccer_correct.ogg" type="audio/ogg"/>
+<source src="audio/ans/soccer_correct.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="well_done_parts_body">
+<source src="audio/ans/well_done_parts_body.ogg" type="audio/ogg"/>
+<source src="audio/ans/well_done_parts_body.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="which_sports_you_know">
+<source src="audio/ans/which_sports_you_know.ogg" type="audio/ogg"/>
+<source src="audio/ans/which_sports_you_know.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+</div>
+</body>
+</html>

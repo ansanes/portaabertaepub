@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" unique-identifier="bookid" prefix="rendition: http://www.idpf.org/vocab/rendition/#" xml:lang="en" version="3.0">
+<metadata>
+	<dc:identifier id="bookid">xxxxxxxxxxxxx</dc:identifier>
+	<dc:title>Porta Aberta</dc:title>
+	<dc:creator id="creater">Elias Constantopedos</dc:creator>
+	<dc:language>en</dc:language>
+	<dc:publisher>Elias Constantopedos</dc:publisher>
+	<dc:rights>© 2018 Elias Constantopedos</dc:rights>
+	<dc:date>2018</dc:date>
+	<meta property="dcterms:modified">2018-09-28T09:59:29Z</meta>
+	<meta content="cover-image" name="cover"></meta>
+	<meta property="rendition:layout">pre-paginated</meta>
+	<meta property="rendition:orientation">auto</meta>
+	<meta property="rendition:spread">auto</meta>
+        <meta property="media:duration" refines="#s_page1">2.000000</meta>
+	<meta property="media:duration" refines="#s_page2">8.500000</meta>
+	<meta property="media:duration" refines="#s_page3">8.489569</meta>
+	<meta property="media:duration" refines="#s_page4">6.353993</meta>
+	<meta property="media:duration" refines="#s_page6">6.500000</meta>
+	<meta property="media:duration" refines="#s_page7">6.000000</meta>
+	<meta property="media:duration" refines="#s_page8">5.104150</meta>
+	<meta property="media:duration" refines="#s_page9">5.461723</meta>
+	<meta property="media:duration" refines="#s_page10">29.244393</meta>
+	<meta property="media:duration" refines="#s_page11">7.000000</meta>
+	<meta property="media:duration" refines="#s_page12">4.874989</meta>
+	<meta property="media:duration" refines="#s_page13">4.124989</meta>
+	<meta property="media:duration" refines="#s_page14">5.374989</meta>
+	<meta property="media:duration" refines="#s_page15">13.124989</meta>
+	<meta property="media:duration" refines="#s_page16">5.750000</meta>
+	<meta property="media:duration" refines="#s_page17">8.624989</meta>
+	<meta property="media:duration" refines="#s_page18">19.124989</meta>
+<meta property="media:duration">143.653762</meta>
+<meta property="media:active-class">-epub-media-overlay-active</meta>
+	</metadata>
+	<manifest>
+<item id="toc" properties="nav" href="toc.xhtml" media-type="application/xhtml+xml"/>
+<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+<item id="v1" href="assets/1/actions.js" media-type="text/javascript"/>
+
+<item id="page1" href="assets/1/page.xhtml" media-type="application/xhtml+xml" media-overlay="s_page1" properties="scripted"/>
+<item id="page2" href="assets/2/page.xhtml" media-type="application/xhtml+xml" media-overlay="s_page2" />
+<item id="page3" href="assets/3/page.xhtml" media-type="application/xhtml+xml" media-overlay="s_page3" properties="scripted" />
+<item id="page4" href="assets/4/page.xhtml" media-type="application/xhtml+xml" media-overlay="s_page4" properties="scripted" />
+<item id="page6" href="assets/5/page.xhtml" media-type="application/xhtml+xml" media-overlay="s_page6" properties="scripted" />
+<item id="page7" href="assets/6/page.xhtml" media-type="application/xhtml+xml" media-overlay="s_page7" properties="scripted" />
+<item id="page8" href="assets/7/page.xhtml" media-type="application/xhtml+xml" media-overlay="s_page8" properties="scripted" />
+<item id="page9" href="assets/8/page.xhtml" media-type="application/xhtml+xml" media-overlay="s_page9" />
+<item id="page10" href="assets/9/page.xhtml" media-type="application/xhtml+xml" media-overlay="s_page10" />
+<item id="page11" href="assets/10/page.xhtml" media-type="application/xhtml+xml" media-overlay="s_page11" />
+<item id="page12" href="assets/11/page.xhtml" media-type="application/xhtml+xml" media-overlay="s_page12" properties="scripted" />
+<item id="page13" href="assets/12/page.xhtml" media-type="application/xhtml+xml" media-overlay="s_page13" properties="scripted" />
+<item id="page14" href="assets/13/page.xhtml" media-type="application/xhtml+xml" media-overlay="s_page14" properties="scripted" />
+<item id="page15" href="assets/14/page.xhtml" media-type="application/xhtml+xml" media-overlay="s_page15" />
+<item id="page16" href="assets/15/page.xhtml" media-type="application/xhtml+xml" media-overlay="s_page16" properties="scripted" />
+<item id="page17" href="assets/16/page.xhtml" media-type="application/xhtml+xml" media-overlay="s_page17" />
+<item id="page18" href="assets/17/page.xhtml" media-type="application/xhtml+xml" media-overlay="s_page18" />
+
+<item id="s_page10" href="assets/9/audio/page10.smil" media-type="application/smil+xml" />
+<item id="s_page11" href="assets/10/audio/page11.smil" media-type="application/smil+xml" />
+<item id="s_page12" href="assets/11/audio/page12.smil" media-type="application/smil+xml" />
+<item id="s_page13" href="assets/12/audio/page13.smil" media-type="application/smil+xml" />
+<item id="s_page14" href="assets/13/audio/page14.smil" media-type="application/smil+xml" />
+<item id="s_page15" href="assets/14/audio/page15.smil" media-type="application/smil+xml" />
+<item id="s_page16" href="assets/15/audio/page16.smil" media-type="application/smil+xml" />
+<item id="s_page17" href="assets/16/audio/page17.smil" media-type="application/smil+xml" />
+<item id="s_page18" href="assets/17/audio/page18.smil" media-type="application/smil+xml" />
+<item id="s_page1" href="assets/1/audio/page1.smil" media-type="application/smil+xml" />
+<item id="s_page2" href="assets/2/audio/page2.smil" media-type="application/smil+xml" />
+<item id="s_page3" href="assets/3/audio/page3.smil" media-type="application/smil+xml" />
+<item id="s_page4" href="assets/4/audio/page4.smil" media-type="application/smil+xml" />
+<item id="s_page6" href="assets/5/audio/page6.smil" media-type="application/smil+xml" />
+<item id="s_page7" href="assets/6/audio/page7.smil" media-type="application/smil+xml" />
+<item id="s_page8" href="assets/7/audio/page8.smil" media-type="application/smil+xml" />
+<item id="s_page9" href="assets/8/audio/page9.smil" media-type="application/smil+xml" />
+
+<item id="m_page10" href="assets/9/audio/page10.m4a" media-type="audio/mpeg"/>
+<item id="m_page11" href="assets/10/audio/page11.m4a" media-type="audio/mpeg"/>
+<item id="m_page12" href="assets/11/audio/page12.m4a" media-type="audio/mpeg"/>
+<item id="m_page13" href="assets/12/audio/page13.m4a" media-type="audio/mpeg"/>
+<item id="m_page14" href="assets/13/audio/page14.m4a" media-type="audio/mpeg"/>
+<item id="m_page15" href="assets/14/audio/page15.m4a" media-type="audio/mpeg"/>
+<item id="m_page16" href="assets/15/audio/page16.m4a" media-type="audio/mpeg"/>
+<item id="m_page17" href="assets/16/audio/page17.m4a" media-type="audio/mpeg"/>
+<item id="m_page18" href="assets/17/audio/page18.m4a" media-type="audio/mpeg"/>
+<item id="m_page1" href="assets/audio/silence_2secs.m4a" media-type="audio/mpeg"/>
+<item id="m_page2" href="assets/2/audio/page2.m4a" media-type="audio/mpeg"/>
+<item id="m_page3" href="assets/3/audio/page3.m4a" media-type="audio/mpeg"/>
+<item id="m_page4" href="assets/4/audio/page4.m4a" media-type="audio/mpeg"/>
+<item id="m_tap" href="assets/4/audio/tap.m4a" media-type="audio/mpeg"/>
+<item id="m_did" href="assets/4/audio/did.m4a" media-type="audio/mpeg"/>
+<item id="m_page6" href="assets/5/audio/page6.m4a" media-type="audio/mpeg"/>
+<item id="m_page7" href="assets/6/audio/page7.m4a" media-type="audio/mpeg"/>
+<item id="m_page8" href="assets/7/audio/page8.m4a" media-type="audio/mpeg"/>
+<item id="m_page9" href="assets/8/audio/page9.m4a" media-type="audio/mpeg"/>
+
+<item id="v2" href="assets/1/styles.css" media-type="text/css"/>
+<item id="v4" href="assets/9/styles.css" media-type="text/css"/>
+<item id="v6" href="assets/9/images/boy.png" media-type="image/png"/>
+<item id="v7" href="assets/9/images/icon_sound.png" media-type="image/png"/>
+<item id="v8" href="assets/10/styles.css" media-type="text/css"/>
+<item id="v10" href="assets/11/custom.js" media-type="text/javascript"/>
+<item id="v11" href="assets/11/styles.css" media-type="text/css"/>
+<item id="v12" href="assets/11/audio/activity_done.ogg" media-type="audio/ogg"/>
+<item id="v13" href="assets/11/audio/activity_start.ogg" media-type="audio/ogg"/>
+<item id="v14" href="assets/11/audio/answer_correct.ogg" media-type="audio/ogg"/>
+<item id="v15" href="assets/11/audio/answer_wrong.ogg" media-type="audio/ogg"/>
+<item id="v16" href="assets/11/audio/button_unavailable.ogg" media-type="audio/ogg"/>
+<item id="v17" href="assets/11/audio/menu_continue.ogg" media-type="audio/ogg"/>
+<item id="v18" href="assets/11/audio/menu_exit.ogg" media-type="audio/ogg"/>
+<item id="v19" href="assets/11/audio/menu_restart.ogg" media-type="audio/ogg"/>
+<item id="v20" href="assets/11/audio/activity_done.m4a" media-type="audio/mpeg"/>
+<item id="v21" href="assets/11/audio/activity_start.m4a" media-type="audio/mpeg"/>
+<item id="v22" href="assets/11/audio/answer_correct.m4a" media-type="audio/mpeg"/>
+<item id="v23" href="assets/11/audio/answer_wrong.m4a" media-type="audio/mpeg"/>
+<item id="v24" href="assets/11/audio/button_unavailable.m4a" media-type="audio/mpeg"/>
+<item id="v25" href="assets/11/audio/menu_continue.m4a" media-type="audio/mpeg"/>
+<item id="v26" href="assets/11/audio/menu_exit.m4a" media-type="audio/mpeg"/>
+<item id="v27" href="assets/11/audio/menu_restart.m4a" media-type="audio/mpeg"/>
+<item id="v28" href="assets/11/images/back.png" media-type="image/png"/>
+<item id="v29" href="assets/11/images/cont.png" media-type="image/png"/>
+<item id="v30" href="assets/11/images/cont1.png" media-type="image/png"/>
+<item id="v31" href="assets/11/images/d1.png" media-type="image/png"/>
+<item id="v32" href="assets/11/images/d2.png" media-type="image/png"/>
+<item id="v33" href="assets/11/images/d3.png" media-type="image/png"/>
+<item id="v34" href="assets/11/images/d4.png" media-type="image/png"/>
+<item id="v35" href="assets/11/images/d5.png" media-type="image/png"/>
+<item id="v36" href="assets/11/images/d6.png" media-type="image/png"/>
+<item id="v37" href="assets/11/images/d7.png" media-type="image/png"/>
+<item id="v38" href="assets/11/images/done.png" media-type="image/png"/>
+<item id="v39" href="assets/11/images/done1.png" media-type="image/png"/>
+<item id="v40" href="assets/11/images/exit.png" media-type="image/png"/>
+<item id="v41" href="assets/11/images/group.png" media-type="image/png"/>
+<item id="v42" href="assets/11/images/icon.png" media-type="image/png"/>
+<item id="v42aaa" href="assets/11/images/icon1.png" media-type="image/png"/>
+<item id="v43" href="assets/11/images/popup.png" media-type="image/png"/>
+<item id="v44" href="assets/11/images/restart.png" media-type="image/png"/>
+<item id="v45" href="assets/11/images/right_sign.png" media-type="image/png"/>
+<item id="v46" href="assets/11/images/star.png" media-type="image/png"/>
+<item id="v47" href="assets/11/images/wrong_sign.png" media-type="image/png"/>
+<item id="v48" href="assets/12/custom.js" media-type="text/javascript"/>
+<item id="v49" href="assets/12/styles.css" media-type="text/css"/>
+<item id="v50" href="assets/12/audio/activity_done.ogg" media-type="audio/ogg"/>
+<item id="v51" href="assets/12/audio/activity_start.ogg" media-type="audio/ogg"/>
+<item id="v52" href="assets/12/audio/answer_correct.ogg" media-type="audio/ogg"/>
+<item id="v53" href="assets/12/audio/answer_wrong.ogg" media-type="audio/ogg"/>
+<item id="v54" href="assets/12/audio/menu_continue.ogg" media-type="audio/ogg"/>
+<item id="v55" href="assets/12/audio/menu_exit.ogg" media-type="audio/ogg"/>
+<item id="v56" href="assets/12/audio/menu_restart.ogg" media-type="audio/ogg"/>
+<item id="v57" href="assets/12/audio/activity_done.m4a" media-type="audio/mpeg"/>
+<item id="v58" href="assets/12/audio/activity_start.m4a" media-type="audio/mpeg"/>
+<item id="v59" href="assets/12/audio/answer_correct.m4a" media-type="audio/mpeg"/>
+<item id="v60" href="assets/12/audio/answer_wrong.m4a" media-type="audio/mpeg"/>
+<item id="v61" href="assets/12/audio/menu_continue.m4a" media-type="audio/mpeg"/>
+<item id="v62" href="assets/12/audio/menu_exit.m4a" media-type="audio/mpeg"/>
+<item id="v63" href="assets/12/audio/menu_restart.m4a" media-type="audio/mpeg"/>
+<item id="v64" href="assets/12/images/back.png" media-type="image/png"/>
+<item id="v65" href="assets/12/images/boy.png" media-type="image/png"/>
+<item id="v66" href="assets/12/images/cont.png" media-type="image/png"/>
+<item id="v67" href="assets/12/images/cont1.png" media-type="image/png"/>
+<item id="v68" href="assets/12/images/done.png" media-type="image/png"/>
+<item id="v69" href="assets/12/images/exit.png" media-type="image/png"/>
+<item id="v70" href="assets/12/images/popup.png" media-type="image/png"/>
+<item id="v71" href="assets/12/images/restart.png" media-type="image/png"/>
+<item id="v72" href="assets/12/images/right_sign.png" media-type="image/png"/>
+<item id="v73" href="assets/12/images/sort.png" media-type="image/png"/>
+<item id="v74" href="assets/12/images/star.png" media-type="image/png"/>
+<item id="v75" href="assets/13/custom.js" media-type="text/javascript"/>
+<item id="v76" href="assets/13/styles.css" media-type="text/css"/>
+<item id="v77" href="assets/13/styles1.css" media-type="text/css"/>
+<item id="v78" href="assets/13/audio/activity_done.ogg" media-type="audio/ogg"/>
+<item id="v79" href="assets/13/audio/activity_start.ogg" media-type="audio/ogg"/>
+<item id="v80" href="assets/13/audio/answer_correct.ogg" media-type="audio/ogg"/>
+<item id="v81" href="assets/13/audio/answer_wrong.ogg" media-type="audio/ogg"/>
+<item id="v82" href="assets/13/audio/menu_continue.ogg" media-type="audio/ogg"/>
+<item id="v83" href="assets/13/audio/menu_exit.ogg" media-type="audio/ogg"/>
+<item id="v84" href="assets/13/audio/menu_restart.ogg" media-type="audio/ogg"/>
+<item id="v85" href="assets/13/audio/activity_done.m4a" media-type="audio/mpeg"/>
+<item id="v86" href="assets/13/audio/activity_start.m4a" media-type="audio/mpeg"/>
+<item id="v87" href="assets/13/audio/answer_correct.m4a" media-type="audio/mpeg"/>
+<item id="v88" href="assets/13/audio/answer_wrong.m4a" media-type="audio/mpeg"/>
+<item id="v89" href="assets/13/audio/menu_continue.m4a" media-type="audio/mpeg"/>
+<item id="v90" href="assets/13/audio/menu_exit.m4a" media-type="audio/mpeg"/>
+<item id="v91" href="assets/13/audio/menu_restart.m4a" media-type="audio/mpeg"/>
+<item id="v92" href="assets/13/images/back.png" media-type="image/png"/>
+<item id="v93" href="assets/13/images/cont.png" media-type="image/png"/>
+<item id="v94" href="assets/13/images/cont1.png" media-type="image/png"/>
+<item id="v95" href="assets/13/images/done.png" media-type="image/png"/>
+<item id="v96" href="assets/13/images/exit.png" media-type="image/png"/>
+<item id="v97" href="assets/13/images/next.png" media-type="image/png"/>
+<item id="v98" href="assets/13/images/obj1168_image.png" media-type="image/png"/>
+<item id="v99" href="assets/13/images/obj3270_image.png" media-type="image/png"/>
+<item id="v100" href="assets/13/images/obj3273_image.png" media-type="image/png"/>
+<item id="v101" href="assets/13/images/obj3276_image.png" media-type="image/png"/>
+<item id="v102" href="assets/13/images/prev.png" media-type="image/png"/>
+<item id="v103" href="assets/13/images/restart.png" media-type="image/png"/>
+<item id="v104" href="assets/13/images/sort.png" media-type="image/png"/>
+<item id="v105" href="assets/14/styles.css" media-type="text/css"/>
+<item id="v106" href="assets/14/styles1.css" media-type="text/css"/>
+<item id="v108" href="assets/14/images/back.png" media-type="image/png"/>
+<item id="v109" href="assets/14/images/cont.png" media-type="image/png"/>
+<item id="v110" href="assets/14/images/cont1.png" media-type="image/png"/>
+<item id="v111" href="assets/14/images/done.png" media-type="image/png"/>
+<item id="v112" href="assets/14/images/exit.png" media-type="image/png"/>
+<item id="v113" href="assets/14/images/next.png" media-type="image/png"/>
+<item id="v114" href="assets/14/images/obj1168_image.png" media-type="image/png"/>
+<item id="v115" href="assets/14/images/obj3270_image.png" media-type="image/png"/>
+<item id="v116" href="assets/14/images/obj3273_image.png" media-type="image/png"/>
+<item id="v117" href="assets/14/images/obj3276_image.png" media-type="image/png"/>
+<item id="v118" href="assets/14/images/prev.png" media-type="image/png"/>
+<item id="v119" href="assets/14/images/restart.png" media-type="image/png"/>
+<item id="v120" href="assets/14/images/sort.png" media-type="image/png"/>
+<item id="v121" href="assets/15/custom.js" media-type="text/javascript"/>
+<item id="v122" href="assets/15/styles.css" media-type="text/css"/>
+<item id="v123" href="assets/15/styles1.css" media-type="text/css"/>
+<item id="v124" href="assets/15/audio/activity_done.ogg" media-type="audio/ogg"/>
+<item id="v125" href="assets/15/audio/activity_start.ogg" media-type="audio/ogg"/>
+<item id="v126" href="assets/15/audio/answer_correct.ogg" media-type="audio/ogg"/>
+<item id="v127" href="assets/15/audio/answer_wrong.ogg" media-type="audio/ogg"/>
+<item id="v128" href="assets/15/audio/menu_continue.ogg" media-type="audio/ogg"/>
+<item id="v129" href="assets/15/audio/menu_exit.ogg" media-type="audio/ogg"/>
+<item id="v130" href="assets/15/audio/menu_restart.ogg" media-type="audio/ogg"/>
+<item id="v131" href="assets/15/audio/activity_done.m4a" media-type="audio/mpeg"/>
+<item id="v132" href="assets/15/audio/activity_start.m4a" media-type="audio/mpeg"/>
+<item id="v133" href="assets/15/audio/answer_correct.m4a" media-type="audio/mpeg"/>
+<item id="v134" href="assets/15/audio/answer_wrong.m4a" media-type="audio/mpeg"/>
+<item id="v135" href="assets/15/audio/menu_continue.m4a" media-type="audio/mpeg"/>
+<item id="v136" href="assets/15/audio/menu_exit.m4a" media-type="audio/mpeg"/>
+<item id="v137" href="assets/15/audio/menu_restart.m4a" media-type="audio/mpeg"/>
+
+<item id="n_jpeg7" href="assets/images/obj3137_image.jpeg" media-type="image/jpeg"/>
+<item id="n_jpeg8" href="assets/images/memoryGame903_card0.jpeg" media-type="image/jpeg"/>
+<item id="n_jpeg9" href="assets/images/obj3335_image.jpeg" media-type="image/jpeg"/>
+<item id="n_jpeg10" href="assets/images/obj3125_image.jpeg" media-type="image/jpeg"/>
+<item id="n_jpeg11" href="assets/13/images/obj3321_image.jpeg" media-type="image/jpeg"/>
+<item id="n_jpeg12" href="assets/images/obj3134_image.jpeg" media-type="image/jpeg"/>
+<item id="n_jpeg13" href="assets/images/obj3194_image.jpeg" media-type="image/jpeg"/>
+<item id="n_jpeg14" href="assets/images/img.jpeg" media-type="image/jpeg"/>
+<item id="n_jpeg15" href="assets/images/obj3128_image.jpeg" media-type="image/jpeg"/>
+<item id="n_jpeg16" href="assets/images/obj3140_image.jpeg" media-type="image/jpeg"/>
+<item id="n_jpeg17" href="assets/images/obj1707_image.jpeg" media-type="image/jpeg"/>
+<item id="n_jpeg18" href="assets/images/obj3122_image.jpeg" media-type="image/jpeg"/>
+<item id="n_jpeg19" href="assets/images/obj3337_image.jpeg" media-type="image/jpeg"/>
+<item id="n_jpeg20" href="assets/images/obj3146_image.jpeg" media-type="image/jpeg"/>
+<item id="n_jpeg21" href="assets/images/obj3321_image.jpeg" media-type="image/jpeg"/>
+<item id="n_jpeg22" href="assets/images/obj45_image.jpeg" media-type="image/jpeg"/>
+<item id="n_jpeg23" href="assets/images/obj3143_image.jpeg" media-type="image/jpeg"/>
+<item id="n_jpeg24" href="assets/images/obj3069_image.jpeg" media-type="image/jpeg"/>
+<item id="n_jpeg25" href="assets/images/obj3119_image.jpeg" media-type="image/jpeg"/>
+<item id="n_jpeg26" href="assets/images/obj3336_image.jpeg" media-type="image/jpeg"/>
+<item id="n_jpeg27" href="assets/images/obj3282_image.jpeg" media-type="image/jpeg"/>
+<item id="n_jpeg28" href="assets/images/obj3131_image.jpeg" media-type="image/jpeg"/>
+<item id="n_jpeg29" href="assets/images/obj3279_image.jpeg" media-type="image/jpeg"/>
+<item id="n_jpeg30" href="assets/images/obj3084_image.jpeg" media-type="image/jpeg"/>
+<item id="n_jpeg31" href="assets/images/obj2348_image.jpeg" media-type="image/jpeg"/>
+
+<item id="jpeg_v75c" href="assets/14/images/obj3321_image.jpeg" media-type="image/jpeg"/>
+<item id="v138" href="assets/15/images/sport1.jpg" media-type="image/jpeg"/>
+<item id="v1381112" href="assets/5/images/square_birds.jpg" media-type="image/jpeg"/>
+<item id="v1381113" href="assets/5/images/square_chicken.jpg" media-type="image/jpeg"/>
+<item id="v1381114" href="assets/5/images/square_parrot.jpg" media-type="image/jpeg"/>
+<item id="v139" href="assets/15/images/sport2.jpg" media-type="image/jpeg"/>
+<item id="v140" href="assets/15/images/sport3.jpg" media-type="image/jpeg"/>
+<item id="v141" href="assets/15/images/back.png" media-type="image/png"/>
+<item id="v142" href="assets/15/images/cont.png" media-type="image/png"/>
+<item id="v143" href="assets/15/images/cont1.png" media-type="image/png"/>
+<item id="v144" href="assets/15/images/done.png" media-type="image/png"/>
+<item id="v145" href="assets/15/images/exit.png" media-type="image/png"/>
+<item id="v146" href="assets/15/images/next.png" media-type="image/png"/>
+<item id="v147" href="assets/15/images/obj3359_image.png" media-type="image/png"/>
+<item id="v148" href="assets/15/images/obj3362_image.png" media-type="image/png"/>
+<item id="v149" href="assets/15/images/obj3459_image.png" media-type="image/png"/>
+<item id="v150" href="assets/15/images/prev.png" media-type="image/png"/>
+<item id="v151" href="assets/15/images/restart.png" media-type="image/png"/>
+<item id="v152" href="assets/15/images/right_sign.png" media-type="image/png"/>
+<item id="v153" href="assets/15/images/sort.png" media-type="image/png"/>
+<item id="v154" href="assets/15/images/wrong_sign.png" media-type="image/png"/>
+<item id="v155" href="assets/16/styles.css" media-type="text/css"/>
+<item id="v156" href="assets/16/styles1.css" media-type="text/css"/>
+<item id="v158" href="assets/16/images/sport1.jpg" media-type="image/jpeg"/>
+<item id="v159" href="assets/16/images/sport2.jpg" media-type="image/jpeg"/>
+<item id="v160" href="assets/16/images/sport3.jpg" media-type="image/jpeg"/>
+<item id="v161" href="assets/16/images/back.png" media-type="image/png"/>
+<item id="v162" href="assets/16/images/cont.png" media-type="image/png"/>
+<item id="v163" href="assets/16/images/cont1.png" media-type="image/png"/>
+<item id="v164" href="assets/16/images/done.png" media-type="image/png"/>
+<item id="v165" href="assets/16/images/exit.png" media-type="image/png"/>
+<item id="v166" href="assets/16/images/next.png" media-type="image/png"/>
+<item id="v167" href="assets/16/images/obj3359_image.png" media-type="image/png"/>
+<item id="v168" href="assets/16/images/obj3362_image.png" media-type="image/png"/>
+<item id="v169" href="assets/16/images/obj3459_image.png" media-type="image/png"/>
+<item id="v170" href="assets/16/images/prev.png" media-type="image/png"/>
+<item id="v171" href="assets/16/images/restart.png" media-type="image/png"/>
+<item id="v172" href="assets/17/styles.css" media-type="text/css"/>
+<item id="v173" href="assets/17/styles1.css" media-type="text/css"/>
+<item id="v175" href="assets/17/images/sport1.jpg" media-type="image/jpeg"/>
+<item id="v176" href="assets/17/images/sport2.jpg" media-type="image/jpeg"/>
+<item id="v177" href="assets/17/images/sport3.jpg" media-type="image/jpeg"/>
+<item id="v178" href="assets/17/images/back.png" media-type="image/png"/>
+<item id="v179" href="assets/17/images/cont.png" media-type="image/png"/>
+<item id="v180" href="assets/17/images/cont1.png" media-type="image/png"/>
+<item id="v181" href="assets/17/images/done.png" media-type="image/png"/>
+<item id="v182" href="assets/17/images/exit.png" media-type="image/png"/>
+<item id="v183" href="assets/17/images/next.png" media-type="image/png"/>
+<item id="v184" href="assets/17/images/obj3359_image.png" media-type="image/png"/>
+<item id="v185" href="assets/17/images/obj3362_image.png" media-type="image/png"/>
+<item id="v186" href="assets/17/images/obj3459_image.png" media-type="image/png"/>
+<item id="v187" href="assets/17/images/prev.png" media-type="image/png"/>
+<item id="v188" href="assets/17/images/restart.png" media-type="image/png"/>
+<item id="v189" href="assets/2/styles.css" media-type="text/css"/>
+<item id="v191" href="assets/3/custom.js" media-type="text/javascript"/>
+<item id="v192" href="assets/3/styles1.css" media-type="text/css"/>
+<item id="v193" href="assets/3/audio/menu_continue.ogg" media-type="audio/ogg"/>
+<item id="v195" href="assets/3/audio/menu_continue.m4a" media-type="audio/mpeg"/>
+<item id="v196" href="assets/3/images/back_01.jpg" media-type="image/jpeg"/>
+<item id="v197" href="assets/3/images/back.png" media-type="image/png"/>
+<item id="v198" href="assets/3/images/finding.png" media-type="image/png"/>
+<item id="v199" href="assets/3/images/listen.png" media-type="image/png"/>
+<item id="v200" href="assets/4/actions1.js" media-type="text/javascript"/>
+<item id="v201" href="assets/4/actions2.js" media-type="text/javascript"/>
+<item id="v202" href="assets/4/custom.js" media-type="text/javascript"/>
+<item id="v203" href="assets/4/styles.css" media-type="text/css"/>
+<item id="v204" href="assets/4/styles0.css" media-type="text/css"/>
+<item id="v205" href="assets/4/styles1.css" media-type="text/css"/>
+<item id="v206" href="assets/4/styles2.css" media-type="text/css"/>
+<item id="m_tap1" href="assets/4/audio/tap.ogg" media-type="audio/ogg"/>
+<item id="m_did1" href="assets/4/audio/did.ogg" media-type="audio/ogg"/>
+<item id="v207" href="assets/4/audio/activity_done.ogg" media-type="audio/ogg"/>
+<item id="v208" href="assets/4/audio/activity_start.ogg" media-type="audio/ogg"/>
+<item id="v209" href="assets/4/audio/answer_correct.ogg" media-type="audio/ogg"/>
+<item id="v210" href="assets/4/audio/button_unavailable.ogg" media-type="audio/ogg"/>
+<item id="v211" href="assets/4/audio/menu_continue.ogg" media-type="audio/ogg"/>
+<item id="v212" href="assets/4/audio/menu_exit.ogg" media-type="audio/ogg"/>
+<item id="v213" href="assets/4/audio/menu_restart.ogg" media-type="audio/ogg"/>
+<item id="v214" href="assets/4/audio/activity_done.m4a" media-type="audio/mpeg"/>
+<item id="v215" href="assets/4/audio/activity_start.m4a" media-type="audio/mpeg"/>
+<item id="v216" href="assets/4/audio/answer_correct.m4a" media-type="audio/mpeg"/>
+<item id="v217" href="assets/4/audio/button_unavailable.m4a" media-type="audio/mpeg"/>
+<item id="v218" href="assets/4/audio/menu_continue.m4a" media-type="audio/mpeg"/>
+<item id="v219" href="assets/4/audio/menu_exit.m4a" media-type="audio/mpeg"/>
+<item id="v220" href="assets/4/audio/menu_restart.m4a" media-type="audio/mpeg"/>
+<item id="v222" href="assets/4/images/back.png" media-type="image/png"/>
+<item id="v223" href="assets/4/images/cont.png" media-type="image/png"/>
+<item id="v224" href="assets/4/images/cont1.png" media-type="image/png"/>
+<item id="v225" href="assets/4/images/done.png" media-type="image/png"/>
+<item id="v226" href="assets/4/images/exit.png" media-type="image/png"/>
+<item id="v227" href="assets/4/images/restart.png" media-type="image/png"/>
+<item id="v228" href="assets/5/custom.js" media-type="text/javascript"/>
+<item id="v229" href="assets/5/styles.css" media-type="text/css"/>
+<item id="v230" href="assets/5/styles1.css" media-type="text/css"/>
+<item id="v231" href="assets/5/audio/activity_done.ogg" media-type="audio/ogg"/>
+<item id="v232" href="assets/5/audio/activity_start.ogg" media-type="audio/ogg"/>
+<item id="v233" href="assets/5/audio/answer_correct.ogg" media-type="audio/ogg"/>
+<item id="v234" href="assets/5/audio/answer_wrong.ogg" media-type="audio/ogg"/>
+<item id="v235" href="assets/5/audio/bee.ogg" media-type="audio/ogg"/>
+<item id="v236" href="assets/5/audio/cat.ogg" media-type="audio/ogg"/>
+<item id="v237" href="assets/5/audio/chicken.ogg" media-type="audio/ogg"/>
+<item id="v238" href="assets/5/audio/cows.ogg" media-type="audio/ogg"/>
+<item id="v239" href="assets/5/audio/duck.ogg" media-type="audio/ogg"/>
+<item id="v240" href="assets/5/audio/menu_continue.ogg" media-type="audio/ogg"/>
+<item id="v241" href="assets/5/audio/menu_exit.ogg" media-type="audio/ogg"/>
+<item id="v242" href="assets/5/audio/menu_restart.ogg" media-type="audio/ogg"/>
+<item id="v243" href="assets/5/audio/rooster.ogg" media-type="audio/ogg"/>
+<item id="v244" href="assets/5/audio/turkey.ogg" media-type="audio/ogg"/>
+<item id="v245" href="assets/5/audio/activity_done.m4a" media-type="audio/mpeg"/>
+<item id="v246" href="assets/5/audio/activity_start.m4a" media-type="audio/mpeg"/>
+<item id="v247" href="assets/5/audio/answer_correct.m4a" media-type="audio/mpeg"/>
+<item id="v248" href="assets/5/audio/answer_wrong.m4a" media-type="audio/mpeg"/>
+<item id="v249" href="assets/5/audio/bee.m4a" media-type="audio/mpeg"/>
+<item id="v251" href="assets/5/audio/cat.m4a" media-type="audio/mpeg"/>
+<item id="v252" href="assets/5/audio/chicken.m4a" media-type="audio/mpeg"/>
+<item id="v253" href="assets/5/audio/cows.m4a" media-type="audio/mpeg"/>
+<item id="v254" href="assets/5/audio/duck.m4a" media-type="audio/mpeg"/>
+<item id="v255" href="assets/5/audio/menu_continue.m4a" media-type="audio/mpeg"/>
+<item id="v256" href="assets/5/audio/menu_exit.m4a" media-type="audio/mpeg"/>
+<item id="v257" href="assets/5/audio/menu_restart.m4a" media-type="audio/mpeg"/>
+<item id="v258" href="assets/5/audio/rooster.m4a" media-type="audio/mpeg"/>
+<item id="v259" href="assets/5/audio/turkey.m4a" media-type="audio/mpeg"/>
+<item id="v260" href="assets/5/images/back_01.jpg" media-type="image/jpeg"/>
+<item id="v261" href="assets/5/images/cat.jpg" media-type="image/jpeg"/>
+<item id="v262" href="assets/5/images/dog.jpg" media-type="image/jpeg"/>
+<item id="v263" href="assets/5/images/Rooster.jpg" media-type="image/jpeg"/>
+<item id="v264" href="assets/5/images/square_bee.jpg" media-type="image/jpeg"/>
+<item id="v265" href="assets/5/images/square_cat.jpg" media-type="image/jpeg"/>
+<item id="v266" href="assets/5/images/square_cow.jpg" media-type="image/jpeg"/>
+<item id="v267" href="assets/5/images/square_duck.jpg" media-type="image/jpeg"/>
+<item id="v268" href="assets/5/images/square_rooster.jpg" media-type="image/jpeg"/>
+<item id="v269" href="assets/5/images/Turkey.jpg" media-type="image/jpeg"/>
+<item id="v270" href="assets/5/images/back.png" media-type="image/png"/>
+<item id="v271" href="assets/5/images/capture.png" media-type="image/png"/>
+<item id="v272" href="assets/5/images/cont.png" media-type="image/png"/>
+<item id="v273" href="assets/5/images/cont1.png" media-type="image/png"/>
+<item id="v274" href="assets/5/images/done.png" media-type="image/png"/>
+<item id="v275" href="assets/5/images/exit.png" media-type="image/png"/>
+<item id="v276" href="assets/5/images/finding_a.png" media-type="image/png"/>
+<item id="v277" href="assets/5/images/finding_cover.png" media-type="image/png"/>
+<item id="v278" href="assets/5/images/listening_a.png" media-type="image/png"/>
+<item id="v279" href="assets/5/images/moo.png" media-type="image/png"/>
+<item id="v280" href="assets/5/images/next.png" media-type="image/png"/>
+<item id="v281" href="assets/5/images/prev.png" media-type="image/png"/>
+<item id="v282" href="assets/5/images/restart.png" media-type="image/png"/>
+<item id="v283" href="assets/5/images/screen3.png" media-type="image/png"/>
+<item id="v284" href="assets/5/images/sound.png" media-type="image/png"/>
+<item id="v285" href="assets/6/custom.js" media-type="text/javascript"/>
+<item id="v286" href="assets/6/styles.css" media-type="text/css"/>
+<item id="v287" href="assets/6/audio/activity_done.ogg" media-type="audio/ogg"/>
+<item id="v288" href="assets/6/audio/activity_start.ogg" media-type="audio/ogg"/>
+<item id="v289" href="assets/6/audio/answer_correct.ogg" media-type="audio/ogg"/>
+<item id="v290" href="assets/6/audio/answer_wrong.ogg" media-type="audio/ogg"/>
+<item id="v291" href="assets/6/audio/menu_continue.ogg" media-type="audio/ogg"/>
+<item id="v292" href="assets/6/audio/menu_exit.ogg" media-type="audio/ogg"/>
+<item id="v293" href="assets/6/audio/menu_restart.ogg" media-type="audio/ogg"/>
+<item id="v294" href="assets/6/audio/activity_done.m4a" media-type="audio/mpeg"/>
+<item id="v295" href="assets/6/audio/activity_start.m4a" media-type="audio/mpeg"/>
+<item id="v296" href="assets/6/audio/answer_correct.m4a" media-type="audio/mpeg"/>
+<item id="v297" href="assets/6/audio/answer_wrong.m4a" media-type="audio/mpeg"/>
+<item id="v298" href="assets/6/audio/menu_continue.m4a" media-type="audio/mpeg"/>
+<item id="v299" href="assets/6/audio/menu_exit.m4a" media-type="audio/mpeg"/>
+<item id="v300" href="assets/6/audio/menu_restart.m4a" media-type="audio/mpeg"/>
+<item id="v301" href="assets/6/images/square_boy.jpg" media-type="image/jpeg"/>
+<item id="v302" href="assets/6/images/square_cat.jpg" media-type="image/jpeg"/>
+<item id="v303" href="assets/6/images/square_dog.jpg" media-type="image/jpeg"/>
+<item id="v304" href="assets/6/images/square_duck.jpg" media-type="image/jpeg"/>
+<item id="v305" href="assets/6/images/square_hangingplant.jpg" media-type="image/jpeg"/>
+<item id="v306" href="assets/6/images/square_man.jpg" media-type="image/jpeg"/>
+<item id="v307" href="assets/6/images/square_pottedplant.jpg" media-type="image/jpeg"/>
+<item id="v308" href="assets/6/images/square_trees.jpg" media-type="image/jpeg"/>
+<item id="v309" href="assets/6/images/square_woman.jpg" media-type="image/jpeg"/>
+<item id="v310" href="assets/6/images/back.png" media-type="image/png"/>
+<item id="v311" href="assets/6/images/cont.png" media-type="image/png"/>
+<item id="v312" href="assets/6/images/cont1.png" media-type="image/png"/>
+<item id="v313" href="assets/6/images/done.png" media-type="image/png"/>
+<item id="v314" href="assets/6/images/exit.png" media-type="image/png"/>
+<item id="v315" href="assets/6/images/restart.png" media-type="image/png"/>
+<item id="v316" href="assets/6/images/right_sign.png" media-type="image/png"/>
+<item id="v317" href="assets/6/images/sort.png" media-type="image/png"/>
+<item id="v318" href="assets/7/actions.js" media-type="text/javascript"/>
+<item id="v319" href="assets/7/custom.js" media-type="text/javascript"/>
+<item id="v320" href="assets/7/styles.css" media-type="text/css"/>
+<item id="v321" href="assets/7/styles1.css" media-type="text/css"/>
+<item id="v322_v1" href="assets/7/audio/birds.ogg" media-type="audio/ogg"/>
+<item id="v322_v2" href="assets/7/audio/cat.ogg" media-type="audio/ogg"/>
+<item id="v322_v3" href="assets/7/audio/cows.ogg" media-type="audio/ogg"/>
+<item id="v322_v4" href="assets/7/audio/dog.ogg" media-type="audio/ogg"/>
+<item id="v322_v5" href="assets/7/audio/rooster.ogg" media-type="audio/ogg"/>
+<item id="v322_v6" href="assets/7/audio/turkey.ogg" media-type="audio/ogg"/>
+<item id="v322_n1" href="assets/7/audio/birds.m4a" media-type="audio/mpeg"/>
+<item id="v322_n2" href="assets/7/audio/cat.m4a" media-type="audio/mpeg"/>
+<item id="v322_n3" href="assets/7/audio/cows.m4a" media-type="audio/mpeg"/>
+<item id="v322_n4" href="assets/7/audio/dog.m4a" media-type="audio/mpeg"/>
+<item id="v322_n5" href="assets/7/audio/rooster.m4a" media-type="audio/mpeg"/>
+<item id="v322_n6" href="assets/7/audio/turkey.m4a" media-type="audio/mpeg"/>
+<item id="v323" href="assets/7/audio/activity_start.m4a" media-type="audio/mpeg"/>
+<item id="v324" href="assets/7/audio/answer_correct.ogg" media-type="audio/ogg"/>
+<item id="v325" href="assets/7/audio/answer_wrong.ogg" media-type="audio/ogg"/>
+<item id="v326" href="assets/7/audio/card_flip.ogg" media-type="audio/ogg"/>
+<item id="v327" href="assets/7/audio/menu_continue.ogg" media-type="audio/ogg"/>
+<item id="v328" href="assets/7/audio/menu_exit.ogg" media-type="audio/ogg"/>
+<item id="v329" href="assets/7/audio/menu_restart.ogg" media-type="audio/ogg"/>
+<item id="v330aaa" href="assets/7/audio/activity_done.ogg" media-type="audio/ogg"/>
+<item id="v330" href="assets/7/audio/activity_done.m4a" media-type="audio/mpeg"/>
+<item id="v331" href="assets/7/audio/activity_start.ogg" media-type="audio/ogg"/>
+<item id="v332" href="assets/7/audio/answer_correct.m4a" media-type="audio/mpeg"/>
+<item id="v333" href="assets/7/audio/answer_wrong.m4a" media-type="audio/mpeg"/>
+<item id="v334" href="assets/7/audio/card_flip.m4a" media-type="audio/mpeg"/>
+<item id="v335" href="assets/7/audio/menu_continue.m4a" media-type="audio/mpeg"/>
+<item id="v336" href="assets/7/audio/menu_exit.m4a" media-type="audio/mpeg"/>
+<item id="v337" href="assets/7/audio/menu_restart.m4a" media-type="audio/mpeg"/>
+<item id="v339" href="assets/7/images/square_boy.jpg" media-type="image/jpeg"/>
+<item id="v340" href="assets/7/images/square_cat.jpg" media-type="image/jpeg"/>
+<item id="v341" href="assets/7/images/square_dog.jpg" media-type="image/jpeg"/>
+<item id="v342" href="assets/7/images/square_duck.jpg" media-type="image/jpeg"/>
+<item id="v343" href="assets/7/images/square_hangingplant.jpg" media-type="image/jpeg"/>
+<item id="v344" href="assets/7/images/square_man.jpg" media-type="image/jpeg"/>
+<item id="v345" href="assets/7/images/square_pottedplant.jpg" media-type="image/jpeg"/>
+<item id="v346" href="assets/7/images/square_trees.jpg" media-type="image/jpeg"/>
+<item id="v347" href="assets/7/images/square_woman.jpg" media-type="image/jpeg"/>
+<item id="v348" href="assets/7/images/back.png" media-type="image/png"/>
+<item id="v349" href="assets/7/images/cont.png" media-type="image/png"/>
+<item id="v350" href="assets/7/images/cont1.png" media-type="image/png"/>
+<item id="v351" href="assets/7/images/done.png" media-type="image/png"/>
+<item id="v352" href="assets/7/images/exit.png" media-type="image/png"/>
+<item id="v353" href="assets/7/images/restart.png" media-type="image/png"/>
+<item id="v354" href="assets/7/images/right_sign.png" media-type="image/png"/>
+<item id="v355" href="assets/7/images/s3_pic.png" media-type="image/png"/>
+<item id="v356" href="assets/7/images/s4_done.png" media-type="image/png"/>
+<item id="v357" href="assets/7/images/sort.png" media-type="image/png"/>
+<item id="v358" href="assets/8/styles.css" media-type="text/css"/>
+<item id="v360" href="assets/8/images/boy.png" media-type="image/png"/>
+<item id="v361" href="assets/audio/children-FIXED.ogg" media-type="audio/ogg"/>
+<item id="v362" href="assets/audio/children-FIXED.m4a" media-type="audio/mpeg"/>
+<item id="v363" href="assets/images/back0.jpg" media-type="image/jpeg"/>
+<item id="cover-image" properties="cover-image" href="assets/images/cover.jpg" media-type="image/jpeg"/>
+<item id="v365" href="assets/images/back.png" media-type="image/png"/>
+<item id="v366" href="assets/images/both.png" media-type="image/png"/>
+<item id="v367" href="assets/images/both1.png" media-type="image/png"/>
+<item id="v368" href="assets/images/eye.png" media-type="image/png"/>
+<item id="v369" href="assets/images/headphones-black.png" media-type="image/png"/>
+<item id="v370" href="assets/images/lion.png" media-type="image/png"/>
+<item id="v371" href="assets/images/memoryGame903_card1.png" media-type="image/png"/>
+<item id="v372" href="assets/images/memoryGame903_card2.png" media-type="image/png"/>
+<item id="v373" href="assets/images/memoryGame903_card3.png" media-type="image/png"/>
+<item id="v374" href="assets/images/memoryGame903_card4.png" media-type="image/png"/>
+<item id="v375" href="assets/images/memoryGame903_card5.png" media-type="image/png"/>
+<item id="v376" href="assets/images/memoryGame903_card6.png" media-type="image/png"/>
+<item id="v377" href="assets/images/next.png" media-type="image/png"/>
+<item id="v378" href="assets/images/obj1168_image.png" media-type="image/png"/>
+<item id="v379" href="assets/images/obj3008_image.png" media-type="image/png"/>
+<item id="v380" href="assets/images/obj3011_image.png" media-type="image/png"/>
+<item id="v381" href="assets/images/obj303_image.png" media-type="image/png"/>
+<item id="v382" href="assets/images/obj306_image.png" media-type="image/png"/>
+<item id="v383" href="assets/images/obj3071_image.png" media-type="image/png"/>
+<item id="v384" href="assets/images/obj3075_image.png" media-type="image/png"/>
+<item id="v385" href="assets/images/obj3091_image.png" media-type="image/png"/>
+<item id="v386" href="assets/images/obj309_image.png" media-type="image/png"/>
+<item id="v387" href="assets/images/obj3110_image.png" media-type="image/png"/>
+<item id="v388" href="assets/images/obj312_image.png" media-type="image/png"/>
+<item id="v389" href="assets/images/obj315_image.png" media-type="image/png"/>
+<item id="v390" href="assets/images/obj3186_image.png" media-type="image/png"/>
+<item id="v391" href="assets/images/obj3199_image.png" media-type="image/png"/>
+<item id="v392" href="assets/images/obj3204_image.png" media-type="image/png"/>
+<item id="v393" href="assets/images/obj3227_image.png" media-type="image/png"/>
+<item id="v394" href="assets/images/obj3247_image.png" media-type="image/png"/>
+<item id="v395" href="assets/images/obj3270_image.png" media-type="image/png"/>
+<item id="v396" href="assets/images/obj3273_image.png" media-type="image/png"/>
+<item id="v397" href="assets/images/obj3276_image.png" media-type="image/png"/>
+<item id="v398" href="assets/images/obj3359_image.png" media-type="image/png"/>
+<item id="v399" href="assets/images/obj3362_image.png" media-type="image/png"/>
+<item id="v400" href="assets/images/obj3400_image.png" media-type="image/png"/>
+<item id="v401" href="assets/images/obj3403_image.png" media-type="image/png"/>
+<item id="v402" href="assets/images/obj3459_image.png" media-type="image/png"/>
+<item id="v403" href="assets/images/obj384_image.png" media-type="image/png"/>
+<item id="v404" href="assets/images/obj431_image.png" media-type="image/png"/>
+<item id="v405" href="assets/images/obj434_image.png" media-type="image/png"/>
+<item id="v406" href="assets/images/obj437_image.png" media-type="image/png"/>
+<item id="v407" href="assets/images/obj468_image.png" media-type="image/png"/>
+<item id="v408" href="assets/images/obj471_image.png" media-type="image/png"/>
+<item id="v409" href="assets/images/obj474_image.png" media-type="image/png"/>
+<item id="v410" href="assets/images/obj480_image.png" media-type="image/png"/>
+<item id="v411" href="assets/images/obj483_image.png" media-type="image/png"/>
+<item id="v412" href="assets/images/obj486_image.png" media-type="image/png"/>
+<item id="v413" href="assets/images/obj492_image.png" media-type="image/png"/>
+<item id="v414" href="assets/images/obj495_image.png" media-type="image/png"/>
+<item id="v415" href="assets/images/obj538_image.png" media-type="image/png"/>
+<item id="v416" href="assets/images/obj541_image.png" media-type="image/png"/>
+<item id="v417" href="assets/images/obj543_image.png" media-type="image/png"/>
+<item id="v418" href="assets/images/obj545_image.png" media-type="image/png"/>
+<item id="v419" href="assets/images/obj549_image.png" media-type="image/png"/>
+<item id="v420" href="assets/images/obj556_image.png" media-type="image/png"/>
+<item id="v421" href="assets/images/obj961_image.png" media-type="image/png"/>
+<item id="v422" href="assets/images/prev.png" media-type="image/png"/>
+<item id="v423" href="assets/video/Kids-vocabulary---Body---parts-of-body---Learn-English-for-kids---English-educational-video.mp4" media-type="audio/mp4"/>
+<item id="v424" href="css/general.styles.css" media-type="text/css"/>
+<item id="v425" href="css/general.styles1.css" media-type="text/css"/>
+<item id="v426" href="fonts/Anonymous-Pro.ttf" media-type="application/vnd.ms-opentype"/>
+<item id="v427" href="fonts/Didot.ttf" media-type="application/vnd.ms-opentype"/>
+<item id="v428" href="fonts/Droid-Sans-Mono.ttf" media-type="application/vnd.ms-opentype"/>
+<item id="v429" href="fonts/Droid-Sans.ttf" media-type="application/vnd.ms-opentype"/>
+<item id="v430" href="fonts/Droid-Serif.ttf" media-type="application/vnd.ms-opentype"/>
+<item id="v431" href="fonts/Lato.ttf" media-type="application/vnd.ms-opentype"/>
+<item id="v432" href="fonts/Open-Sans.ttf" media-type="application/vnd.ms-opentype"/>
+<item id="v433" href="fonts/OpenDyslexic3-Bold.ttf" media-type="application/vnd.ms-opentype"/>
+<item id="v434" href="fonts/OpenDyslexic3-Regular.ttf" media-type="application/vnd.ms-opentype"/>
+<item id="v435" href="fonts/OpenDyslexic3.ttf" media-type="application/vnd.ms-opentype"/>
+<item id="v436" href="fonts/Roboto-Mono.ttf" media-type="application/vnd.ms-opentype"/>
+<item id="v437" href="fonts/Roboto-Slab.ttf" media-type="application/vnd.ms-opentype"/>
+<item id="v438" href="fonts/Roboto.ttf" media-type="application/vnd.ms-opentype"/>
+<item id="v439" href="fonts/Source-Code-Pro.ttf" media-type="application/vnd.ms-opentype"/>
+<item id="v440" href="fonts/Source-Sans-Pro.ttf" media-type="application/vnd.ms-opentype"/>
+<item id="v441" href="fonts/Tinos.ttf" media-type="application/vnd.ms-opentype"/>
+<item id="v442" href="images/scdrawer-crayon_tool_icon.png" media-type="image/png"/>
+<item id="v443" href="images/scdrawer-draw_tool_icon.png" media-type="image/png"/>
+<item id="v444" href="images/scdrawer-erase_tool_icon.png" media-type="image/png"/>
+<item id="v445" href="images/scdrawer-fill_tool_icon.png" media-type="image/png"/>
+<item id="v446" href="images/scdrawer-transparent_color.png" media-type="image/png"/>
+<item id="v447" href="images/scdrawer-trash.png" media-type="image/png"/>
+<item id="v448" href="images/scnavigation-next-btn-active.png" media-type="image/png"/>
+<item id="v449" href="images/scnavigation-next-btn-hover.png" media-type="image/png"/>
+<item id="v450" href="images/scnavigation-next-btn.png" media-type="image/png"/>
+<item id="v451" href="images/scnavigation-prev-btn-active.png" media-type="image/png"/>
+<item id="v452" href="images/scnavigation-prev-btn-hover.png" media-type="image/png"/>
+<item id="v453" href="images/scnavigation-prev-btn.png" media-type="image/png"/>
+<item id="v454" href="images/scphotogallery-fullscreen-close.png" media-type="image/png"/>
+<item id="v455" href="images/scphotogallery-fullscreen-open.png" media-type="image/png"/>
+<item id="v456" href="images/scphotogallery-index-close.png" media-type="image/png"/>
+<item id="v457" href="images/scphotogallery-index-open.png" media-type="image/png"/>
+<item id="v458" href="images/scphotogallery-next.png" media-type="image/png"/>
+<item id="v459" href="images/scphotogallery-prev.png" media-type="image/png"/>
+<item id="v460" href="images/scphotogallery-thumb-next.png" media-type="image/png"/>
+<item id="v461" href="images/scphotogallery-thumb-prev.png" media-type="image/png"/>
+<item id="v462" href="images/scquiz-check-missed.png" media-type="image/png"/>
+<item id="v463" href="images/scquiz-check-off.png" media-type="image/png"/>
+<item id="v464" href="images/scquiz-check-on.png" media-type="image/png"/>
+<item id="v465" href="images/scquiz-check-right.png" media-type="image/png"/>
+<item id="v466" href="images/scquiz-check-wrong.png" media-type="image/png"/>
+<item id="v467" href="images/scquiz-next.png" media-type="image/png"/>
+<item id="v468" href="images/scquiz-prev.png" media-type="image/png"/>
+<item id="v469" href="images/scquiz-radio-missed.png" media-type="image/png"/>
+<item id="v470" href="images/scquiz-radio-off.png" media-type="image/png"/>
+<item id="v471" href="images/scquiz-radio-on.png" media-type="image/png"/>
+<item id="v472" href="images/scquiz-radio-right.png" media-type="image/png"/>
+<item id="v473" href="images/scquiz-radio-wrong.png" media-type="image/png"/>
+<item id="v474" href="js/drawer.js" media-type="text/javascript"/>
+<item id="v475" href="js/flood_fill.js" media-type="text/javascript"/>
+<item id="v476" href="js/general.functions.js" media-type="text/javascript"/>
+<item id="v477" href="js/idangerous.swiper-2.3.js" media-type="text/javascript"/>
+<item id="v478" href="js/jquery-animate-css-rotate-scale.js" media-type="text/javascript"/>
+<item id="v479" href="js/jquery-css-transform.js" media-type="text/javascript"/>
+<item id="v480" href="js/jquery.animate-shadow-min.js" media-type="text/javascript"/>
+<item id="v481" href="js/jquery.easie-min.js" media-type="text/javascript"/>
+<item id="v482" href="js/jquery.jgestures.js" media-type="text/javascript"/>
+<item id="v483" href="js/jquery.js" media-type="text/javascript"/>
+<item id="v484" href="js/jquery.move.js" media-type="text/javascript"/>
+<item id="v485" href="js/jquery.panzoom.min.js" media-type="text/javascript"/>
+<item id="v486" href="js/jquery.scrollTo-min.js" media-type="text/javascript"/>
+<item id="v487" href="js/jquery.SCswipe.js" media-type="text/javascript"/>
+<item id="v488" href="js/jquery.touchpunch.js" media-type="text/javascript"/>
+<item id="v489" href="js/jquery.ui.js" media-type="text/javascript"/>
+<item id="v490" href="js/photogallery.js" media-type="text/javascript"/>
+<item id="v491" href="js/pubcoder.js" media-type="text/javascript"/>
+<item id="v492" href="js/quiz-multi.js" media-type="text/javascript"/>
+<item id="v493" href="js/remodal.js" media-type="text/javascript"/>
+<item id="v494" href="js/scw_memory_game.js" media-type="text/javascript"/>
+<item id="v495" href="js/scw_panzoom.js" media-type="text/javascript"/>
+<item id="v496" href="js/scw_widgets.js" media-type="text/javascript"/>
+<item id="v497" href="js/shake.js" media-type="text/javascript"/>
+<item id="v498" href="js/spritespin.api.js" media-type="text/javascript"/>
+<item id="v499" href="js/spritespin.js" media-type="text/javascript"/>
+<item id="v500" href="js/spritespin.mod-360.js" media-type="text/javascript"/>
+<item id="v501" href="js/unmask.js" media-type="text/javascript"/>
+<item id="audio15" href="assets/audio/children-FIXED.wav" media-type="audio/wav" />
+<item id="farm-atmospheric-FIXED" href="assets/audio/farm-atmospheric-FIXED.wav" media-type="audio/wav" />
+<item id="audio20" href="assets/audio/children-3.wav" media-type="audio/wav" />
+<item id="audio22" href="assets/audio/chickens-FIXED.wav" media-type="audio/wav" />
+<item id="audio23" href="assets/audio/chicken-rooster-and-chicks.wav" media-type="audio/wav" />
+<item id="audio24" href="assets/audio/cat.wav" media-type="audio/wav" />
+<item id="audio25" href="assets/audio/cat-FIXED.wav" media-type="audio/wav" />
+<item id="audio26" href="assets/audio/man-3.wav" media-type="audio/wav" />
+<item id="audio27" href="assets/audio/man.wav" media-type="audio/wav" />
+<item id="audio28" href="assets/audio/dogs-copydognar.wav" media-type="audio/wav" />
+<item id="audio29" href="assets/audio/HELPER---dog.wav" media-type="audio/wav" />
+<item id="audio30" href="assets/audio/cows.wav" media-type="audio/wav" />
+<item id="audio31" href="assets/audio/cows-FIXED.wav" media-type="audio/wav" />
+<item id="audio32" href="assets/audio/corn.wav" media-type="audio/wav" />
+<item id="audio33" href="assets/audio/corn-FIXED.wav" media-type="audio/wav" />
+<item id="audio34" href="assets/audio/duck-2.wav" media-type="audio/wav" />
+<item id="audio35" href="assets/audio/duck.wav" media-type="audio/wav" />
+<item id="audio36" href="assets/audio/birds.wav" media-type="audio/wav" />
+<item id="audio37" href="assets/audio/dogs.wav" media-type="audio/wav" />
+<item id="audio38" href="assets/audio/dog-FIXED.wav" media-type="audio/wav" />
+<item id="audio39" href="assets/audio/chicken-2.wav" media-type="audio/wav" />
+<item id="audio40" href="assets/audio/chicken.wav" media-type="audio/wav" />
+<item id="audio41" href="assets/audio/turkey.wav" media-type="audio/wav" />
+<item id="audio42" href="assets/audio/turkey-FIXED.wav" media-type="audio/wav" />
+<item id="audio43" href="assets/audio/woman.wav" media-type="audio/wav" />
+<item id="audio44" href="assets/audio/woman-2.wav" media-type="audio/wav" />
+<item id="audio46" href="assets/audio/duck_ducklings.wav" media-type="audio/wav" />
+<item id="audio46" href="assets/audio/ducks.wav" media-type="audio/wav" />
+<item id="audio47" href="assets/audio/plants.wav" media-type="audio/wav" />
+<item id="audio48" href="assets/audio/plants-FIXED.wav" media-type="audio/wav" />
+<item id="audio49" href="assets/audio/parrot.wav" media-type="audio/wav" />
+<item id="audio50" href="assets/audio/parrot-FIXED.wav" media-type="audio/wav" />
+<item id="audio51" href="assets/audio/trees-2.wav" media-type="audio/wav" />
+<item id="audio52" href="assets/audio/hanging_plant.wav" media-type="audio/wav" />
+<item id="audio53" href="assets/audio/trees-FIXED.wav" media-type="audio/wav" />
+<item id="audio54" href="assets/audio/bee.wav" media-type="audio/wav" />
+<item id="audio55" href="assets/audio/bee-FIXED.wav" media-type="audio/wav" />
+<item id="v14aa" href="assets/audio/button_unavailable.m4a" media-type="audio/mpeg"/>
+<item id="v15aa" href="assets/audio/button_unavailable.ogg" media-type="audio/ogg"/>
+
+<item id="v3321" href="assets/11/audio/ans/answer_correct.m4a" media-type="audio/mpeg"/>
+<item id="v15a2" href="assets/11/audio/ans/answer_correct.ogg" media-type="audio/ogg"/>
+<item id="v3323" href="assets/11/audio/ans/answer_incorrect.m4a" media-type="audio/mpeg"/>
+<item id="v15a4" href="assets/11/audio/ans/answer_incorrect.ogg" media-type="audio/ogg"/>
+<item id="v3325" href="assets/11/audio/ans/question_arms.m4a" media-type="audio/mpeg"/>
+<item id="v15a6" href="assets/11/audio/ans/question_arms.ogg" media-type="audio/ogg"/>
+<item id="v3327" href="assets/11/audio/ans/question_feet.m4a" media-type="audio/mpeg"/>
+<item id="v15a8" href="assets/11/audio/ans/question_feet.ogg" media-type="audio/ogg"/>
+<item id="v3329" href="assets/11/audio/ans/question_hands.m4a" media-type="audio/mpeg"/>
+<item id="v15a10" href="assets/11/audio/ans/question_hands.ogg" media-type="audio/ogg"/>
+<item id="v33211" href="assets/11/audio/ans/question_head.m4a" media-type="audio/mpeg"/>
+<item id="v15a12" href="assets/11/audio/ans/question_head.ogg" media-type="audio/ogg"/>
+<item id="v33213" href="assets/11/audio/ans/question_legs.m4a" media-type="audio/mpeg"/>
+<item id="v15a14" href="assets/11/audio/ans/question_legs.ogg" media-type="audio/ogg"/>
+<item id="v33215" href="assets/11/audio/ans/question_neck.m4a" media-type="audio/mpeg"/>
+<item id="v15a16" href="assets/11/audio/ans/question_neck.ogg" media-type="audio/ogg"/>
+<item id="v33217" href="assets/11/audio/ans/question_torso.m4a" media-type="audio/mpeg"/>
+<item id="v15a18" href="assets/11/audio/ans/question_torso.ogg" media-type="audio/ogg"/>
+<item id="v33219" href="assets/11/audio/ans/select_a_part.m4a" media-type="audio/mpeg"/>
+<item id="v15a20" href="assets/11/audio/ans/select_a_part.ogg" media-type="audio/ogg"/>
+<item id="v33221" href="assets/11/audio/ans/try_to_name_each_part.m4a" media-type="audio/mpeg"/>
+<item id="v15a22" href="assets/11/audio/ans/try_to_name_each_part.ogg" media-type="audio/ogg"/>
+<item id="v33223" href="assets/11/audio/ans/well_done_all_parts.m4a" media-type="audio/mpeg"/>
+<item id="v15a24" href="assets/11/audio/ans/well_done_all_parts.ogg" media-type="audio/ogg"/>
+
+<item id="v33225" href="assets/12/audio/ans/answer_correct.m4a" media-type="audio/mpeg"/>
+<item id="v15a26" href="assets/12/audio/ans/answer_correct.ogg" media-type="audio/ogg"/>
+<item id="v33227" href="assets/12/audio/ans/answer_incorrect.m4a" media-type="audio/mpeg"/>
+<item id="v15a28" href="assets/12/audio/ans/answer_incorrect.ogg" media-type="audio/ogg"/>
+<item id="v33229" href="assets/12/audio/ans/can_you_fill_missing_vowels.m4a" media-type="audio/mpeg"/>
+<item id="v15a30" href="assets/12/audio/ans/can_you_fill_missing_vowels.ogg" media-type="audio/ogg"/>
+<item id="v33231" href="assets/12/audio/ans/here_are_the_names.m4a" media-type="audio/mpeg"/>
+<item id="v15a32" href="assets/12/audio/ans/here_are_the_names.ogg" media-type="audio/ogg"/>
+<item id="v33233" href="assets/12/audio/ans/hint_ears.m4a" media-type="audio/mpeg"/>
+<item id="v15a34" href="assets/12/audio/ans/hint_ears.ogg" media-type="audio/ogg"/>
+<item id="v33235" href="assets/12/audio/ans/hint_eyes.m4a" media-type="audio/mpeg"/>
+<item id="v15a36" href="assets/12/audio/ans/hint_eyes.ogg" media-type="audio/ogg"/>
+<item id="v33237" href="assets/12/audio/ans/hint_hair.m4a" media-type="audio/mpeg"/>
+<item id="v15a38" href="assets/12/audio/ans/hint_hair.ogg" media-type="audio/ogg"/>
+<item id="v33239" href="assets/12/audio/ans/hint_mouth.m4a" media-type="audio/mpeg"/>
+<item id="v15a40" href="assets/12/audio/ans/hint_mouth.ogg" media-type="audio/ogg"/>
+<item id="v33241" href="assets/12/audio/ans/hint_nose.m4a" media-type="audio/mpeg"/>
+<item id="v15a42" href="assets/12/audio/ans/hint_nose.ogg" media-type="audio/ogg"/>
+<item id="v33243" href="assets/12/audio/ans/select_the_vowel.m4a" media-type="audio/mpeg"/>
+<item id="v15a44" href="assets/12/audio/ans/select_the_vowel.ogg" media-type="audio/ogg"/>
+<item id="v33245" href="assets/12/audio/ans/well_done_all_vowels.m4a" media-type="audio/mpeg"/>
+<item id="v15a46" href="assets/12/audio/ans/well_done_all_vowels.ogg" media-type="audio/ogg"/>
+
+<item id="v33247" href="assets/13/audio/ans/answer_incorrect.m4a" media-type="audio/mpeg"/>
+<item id="v15a48" href="assets/13/audio/ans/answer_incorrect.ogg" media-type="audio/ogg"/>
+<item id="v33249" href="assets/13/audio/ans/hat_correct.m4a" media-type="audio/mpeg"/>
+<item id="v15a50" href="assets/13/audio/ans/hat_correct.ogg" media-type="audio/ogg"/>
+<item id="v33251" href="assets/13/audio/ans/hat_question.m4a" media-type="audio/mpeg"/>
+<item id="v15a52" href="assets/13/audio/ans/hat_question.ogg" media-type="audio/ogg"/>
+<item id="v33253" href="assets/13/audio/ans/hoodie_correct.m4a" media-type="audio/mpeg"/>
+<item id="v15a54" href="assets/13/audio/ans/hoodie_correct.ogg" media-type="audio/ogg"/>
+<item id="v33255" href="assets/13/audio/ans/hoodie_question.m4a" media-type="audio/mpeg"/>
+<item id="v15a56" href="assets/13/audio/ans/hoodie_question.ogg" media-type="audio/ogg"/>
+<item id="v33257" href="assets/13/audio/ans/jeans_correct.m4a" media-type="audio/mpeg"/>
+<item id="v15a58" href="assets/13/audio/ans/jeans_correct.ogg" media-type="audio/ogg"/>
+<item id="v33259" href="assets/13/audio/ans/jeans_question.m4a" media-type="audio/mpeg"/>
+<item id="v15a60" href="assets/13/audio/ans/jeans_question.ogg" media-type="audio/ogg"/>
+<item id="v33261" href="assets/13/audio/ans/shoes_correct.m4a" media-type="audio/mpeg"/>
+<item id="v15a62" href="assets/13/audio/ans/shoes_correct.ogg" media-type="audio/ogg"/>
+<item id="v33263" href="assets/13/audio/ans/shoes_question.m4a" media-type="audio/mpeg"/>
+<item id="v15a64" href="assets/13/audio/ans/shoes_question.ogg" media-type="audio/ogg"/>
+<item id="v33265" href="assets/13/audio/ans/socks_correct.m4a" media-type="audio/mpeg"/>
+<item id="v15a66" href="assets/13/audio/ans/socks_correct.ogg" media-type="audio/ogg"/>
+<item id="v33267" href="assets/13/audio/ans/socks_question.m4a" media-type="audio/mpeg"/>
+<item id="v15a68" href="assets/13/audio/ans/socks_question.ogg" media-type="audio/ogg"/>
+<item id="v33269" href="assets/13/audio/ans/well_done_all_clothes.m4a" media-type="audio/mpeg"/>
+<item id="v15a70" href="assets/13/audio/ans/well_done_all_clothes.ogg" media-type="audio/ogg"/>
+
+<item id="v33271" href="assets/15/audio/ans/answer_incorrect.m4a" media-type="audio/mpeg"/>
+<item id="v15a72" href="assets/15/audio/ans/answer_incorrect.ogg" media-type="audio/ogg"/>
+<item id="v33273" href="assets/15/audio/ans/basketball.m4a" media-type="audio/mpeg"/>
+<item id="v15a74" href="assets/15/audio/ans/basketball.ogg" media-type="audio/ogg"/>
+<item id="v33275" href="assets/15/audio/ans/basketball_correct.m4a" media-type="audio/mpeg"/>
+<item id="v15a76" href="assets/15/audio/ans/basketball_correct.ogg" media-type="audio/ogg"/>
+<item id="v33277" href="assets/15/audio/ans/here_are_some_pictures.m4a" media-type="audio/mpeg"/>
+<item id="v15a78" href="assets/15/audio/ans/here_are_some_pictures.ogg" media-type="audio/ogg"/>
+<item id="v33279" href="assets/15/audio/ans/pick_which_part_body.m4a" media-type="audio/mpeg"/>
+<item id="v15a80" href="assets/15/audio/ans/pick_which_part_body.ogg" media-type="audio/ogg"/>
+<item id="v33281" href="assets/15/audio/ans/skateboarding.m4a" media-type="audio/mpeg"/>
+<item id="v15a82" href="assets/15/audio/ans/skateboarding.ogg" media-type="audio/ogg"/>
+<item id="v33283" href="assets/15/audio/ans/skateboard_correct.m4a" media-type="audio/mpeg"/>
+<item id="v15a84" href="assets/15/audio/ans/skateboard_correct.ogg" media-type="audio/ogg"/>
+<item id="v33285" href="assets/15/audio/ans/soccer.m4a" media-type="audio/mpeg"/>
+<item id="v15a86" href="assets/15/audio/ans/soccer.ogg" media-type="audio/ogg"/>
+<item id="v33287" href="assets/15/audio/ans/soccer_correct.m4a" media-type="audio/mpeg"/>
+<item id="v15a88" href="assets/15/audio/ans/soccer_correct.ogg" media-type="audio/ogg"/>
+<item id="v33289" href="assets/15/audio/ans/well_done_parts_body.m4a" media-type="audio/mpeg"/>
+<item id="v15a90" href="assets/15/audio/ans/well_done_parts_body.ogg" media-type="audio/ogg"/>
+<item id="v33291" href="assets/15/audio/ans/which_sports_you_know.m4a" media-type="audio/mpeg"/>
+<item id="v15a92" href="assets/15/audio/ans/which_sports_you_know.ogg" media-type="audio/ogg"/>
+
+<item id="v33293" href="assets/5/audio/ans/bee_correct.m4a" media-type="audio/mpeg"/>
+<item id="v15a94" href="assets/5/audio/ans/bee_correct.ogg" media-type="audio/ogg"/>
+<item id="v33295" href="assets/5/audio/ans/bird_incorrect.m4a" media-type="audio/mpeg"/>
+<item id="v15a96" href="assets/5/audio/ans/bird_incorrect.ogg" media-type="audio/ogg"/>
+<item id="v33297" href="assets/5/audio/ans/cat_correct.m4a" media-type="audio/mpeg"/>
+<item id="v15a98" href="assets/5/audio/ans/cat_correct.ogg" media-type="audio/ogg"/>
+<item id="v33299" href="assets/5/audio/ans/chicken_example.m4a" media-type="audio/mpeg"/>
+<item id="v15a100" href="assets/5/audio/ans/chicken_example.ogg" media-type="audio/ogg"/>
+<item id="v332101" href="assets/5/audio/ans/chicken_incorrect.m4a" media-type="audio/mpeg"/>
+<item id="v15a102" href="assets/5/audio/ans/chicken_incorrect.ogg" media-type="audio/ogg"/>
+<item id="v332103" href="assets/5/audio/ans/cow_correct.m4a" media-type="audio/mpeg"/>
+<item id="v15a104" href="assets/5/audio/ans/cow_correct.ogg" media-type="audio/ogg"/>
+<item id="v332105" href="assets/5/audio/ans/dog_incorrect.m4a" media-type="audio/mpeg"/>
+<item id="v15a106" href="assets/5/audio/ans/dog_incorrect.ogg" media-type="audio/ogg"/>
+<item id="v332107" href="assets/5/audio/ans/duck_correct.m4a" media-type="audio/mpeg"/>
+<item id="v15a108" href="assets/5/audio/ans/duck_correct.ogg" media-type="audio/ogg"/>
+<item id="v332109" href="assets/5/audio/ans/here_are_other_animals.m4a" media-type="audio/mpeg"/>
+<item id="v15a110" href="assets/5/audio/ans/here_are_other_animals.ogg" media-type="audio/ogg"/>
+<item id="v332111" href="assets/5/audio/ans/parrot_incorrect.m4a" media-type="audio/mpeg"/>
+<item id="v15a112" href="assets/5/audio/ans/parrot_incorrect.ogg" media-type="audio/ogg"/>
+<item id="v332113" href="assets/5/audio/ans/rooster_correct.m4a" media-type="audio/mpeg"/>
+<item id="v15a114" href="assets/5/audio/ans/rooster_correct.ogg" media-type="audio/ogg"/>
+<item id="v332115" href="assets/5/audio/ans/turkey_example.m4a" media-type="audio/mpeg"/>
+<item id="v15a116" href="assets/5/audio/ans/turkey_example.ogg" media-type="audio/ogg"/>
+<item id="v332117" href="assets/5/audio/ans/turkey_incorrect.m4a" media-type="audio/mpeg"/>
+<item id="v15a118" href="assets/5/audio/ans/turkey_incorrect.ogg" media-type="audio/ogg"/>
+<item id="v332119" href="assets/5/audio/ans/well_done_all_animals.m4a" media-type="audio/mpeg"/>
+<item id="v15a120" href="assets/5/audio/ans/well_done_all_animals.ogg" media-type="audio/ogg"/>
+<item id="v332121" href="assets/5/audio/ans/what_animal_is_making.m4a" media-type="audio/mpeg"/>
+<item id="v15a122" href="assets/5/audio/ans/what_animal_is_making.ogg" media-type="audio/ogg"/>
+
+<item id="v332123" href="assets/6/audio/ans/answer_correct.m4a" media-type="audio/mpeg"/>
+<item id="v15a124" href="assets/6/audio/ans/answer_correct.ogg" media-type="audio/ogg"/>
+<item id="v332125" href="assets/6/audio/ans/answer_incorrect.m4a" media-type="audio/mpeg"/>
+<item id="v15a126" href="assets/6/audio/ans/answer_incorrect.ogg" media-type="audio/ogg"/>
+<item id="v332127" href="assets/6/audio/ans/are_they_animals_people_plants.m4a" media-type="audio/mpeg"/>
+<item id="v15a128" href="assets/6/audio/ans/are_they_animals_people_plants.ogg" media-type="audio/ogg"/>
+<item id="v332129" href="assets/6/audio/ans/here_are_nine_pictures.m4a" media-type="audio/mpeg"/>
+<item id="v15a130" href="assets/6/audio/ans/here_are_nine_pictures.ogg" media-type="audio/ogg"/>
+<item id="v332131" href="assets/6/audio/ans/sort_the_picture.m4a" media-type="audio/mpeg"/>
+<item id="v15a132" href="assets/6/audio/ans/sort_the_picture.ogg" media-type="audio/ogg"/>
+<item id="v332133" href="assets/6/audio/ans/you_sorted_animal_people_plants.m4a" media-type="audio/mpeg"/>
+<item id="v15a134" href="assets/6/audio/ans/you_sorted_animal_people_plants.ogg" media-type="audio/ogg"/>
+
+<item id="v332135" href="assets/7/audio/ans/answer_correct.m4a" media-type="audio/mpeg"/>
+<item id="v15a136" href="assets/7/audio/ans/answer_correct.ogg" media-type="audio/ogg"/>
+<item id="v332137" href="assets/7/audio/ans/answer_incorrect.m4a" media-type="audio/mpeg"/>
+<item id="v15a138" href="assets/7/audio/ans/answer_incorrect.ogg" media-type="audio/ogg"/>
+<item id="v332139" href="assets/7/audio/ans/are_you_sure.m4a" media-type="audio/mpeg"/>
+<item id="v15a140" href="assets/7/audio/ans/are_you_sure.ogg" media-type="audio/ogg"/>
+<item id="v332141" href="assets/7/audio/ans/can_you_find_pairs.m4a" media-type="audio/mpeg"/>
+<item id="v15a142" href="assets/7/audio/ans/can_you_find_pairs.ogg" media-type="audio/ogg"/>
+<item id="v332143" href="assets/7/audio/ans/here_are_all_animals.m4a" media-type="audio/mpeg"/>
+<item id="v15a144" href="assets/7/audio/ans/here_are_all_animals.ogg" media-type="audio/ogg"/>
+<item id="v332145" href="assets/7/audio/ans/how_many_pairs.m4a" media-type="audio/mpeg"/>
+<item id="v15a146" href="assets/7/audio/ans/how_many_pairs.ogg" media-type="audio/ogg"/>
+<item id="v332147" href="assets/7/audio/ans/well_done_six_pairs.m4a" media-type="audio/mpeg"/>
+<item id="v15a148" href="assets/7/audio/ans/well_done_six_pairs.ogg" media-type="audio/ogg"/>
+</manifest>
+
+	<spine toc="ncx">
+		<itemref idref="page1" linear="yes"/>
+		<itemref idref="page2" linear="yes"/>
+		<itemref idref="page3" linear="yes"/>
+		<itemref idref="page4" linear="yes"/>
+		<itemref idref="page6" linear="yes"/>
+		<itemref idref="page7" linear="yes"/>
+		<itemref idref="page8" linear="yes"/>
+		<itemref idref="page9" linear="yes"/>
+		<itemref idref="page10" linear="yes"/>
+		<itemref idref="page11" linear="yes"/>
+		<itemref idref="page12" linear="yes"/>
+		<itemref idref="page13" linear="yes"/>
+		<itemref idref="page14" linear="yes"/>
+		<itemref idref="page15" linear="yes"/>
+		<itemref idref="page16" linear="yes"/>
+		<itemref idref="page17" linear="yes"/>
+		<itemref idref="page18" linear="yes"/>
+	</spine>
+<guide>
+	<reference type="cover" title="Front Cover" href="assets/1/page.xhtml"/>
+</guide>
+</package>

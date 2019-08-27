@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smil xmlns="http://www.w3.org/ns/SMIL" xmlns:epub="http://www.idpf.org/2007/ops" version="3.0">
+
+    <body>
+        <par id="par0">
+            <text src="../page.xhtml#page_s1" />
+            <audio src="../../audio/silence_2secs.m4a" clipBegin="0.000000" clipEnd="0.2" />
+        </par>
+        <par id="par1">
+            <text src="../page.xhtml#page_w1" />
+            <audio src="page16.m4a" clipBegin="0.000000" clipEnd="2.171797" />
+        </par>
+        <par id="par2">
+            <text src="../page.xhtml#page_w2" />
+            <audio src="page16.m4a" clipBegin="2.171797" clipEnd="5.750000" />
+        </par>
+        
+    </body>
+</smil>

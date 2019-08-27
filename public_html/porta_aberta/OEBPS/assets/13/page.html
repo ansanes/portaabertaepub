@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ibooks="http://apple.com/ibooks/html-extensions">
+    <head>
+        <meta charset="utf-8"/>
+        <title>True or False Activity</title>
+        <meta name="viewport" content="width=2048, height=1536" /> 
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <link rel="stylesheet" type="text/css" href="styles1.css" />
+        <script type="text/javascript" src="../../js/jquery.js"></script>
+        <script type="text/javascript" src="../../js/pageFunctions.js"></script>
+        <script type="text/javascript" src="data.js"></script>
+        <script>
+            $(document).ready(function () {
+                var items = activityData.items;
+                for (var i = 0; i < items.length; i++) {
+                    var value = items[i];
+                    var buttonYesClass, buttonNoClass;
+                    if (value.correct) {
+                        buttonYesClass = 'r1';
+                        buttonNoClass = 'w1';
+                    } else {
+                        buttonYesClass = 'w1';
+                        buttonNoClass = 'r1';
+                    }
+                    $(".container").append('<div id="screen' + (i + 2) + '" style="display: none;">' +
+                            '<p class="b_text_w">' + value.question + '</p>' +
+                            '<img class="frame_7" id="img01a" src="images/' + value.image + '" alt="' + value.imageDesc + '" />' +
+                            '<div class="yes_btn ' + buttonYesClass + '">YES</div>' +
+                            '<div class="no_btn ' + buttonNoClass + '">NO</div>' +
+                            '<div class="posi">' +
+                            '<p class="b_text_w1">' + value.name + '</p>' +
+                            '</div>' +
+                            '<div class="box3"></div>' +
+                            '<div class="bottom_bar">' +
+                            '<div class="exit" id="exit2">' +
+                            '<p class="b_text">Exit</p>' +
+                            '</div>' +
+                            '<div class="restart" id="restart2">' +
+                            '<p class="b_text">Restart</p>' +
+                            '</div>' +
+                            '<div class="cont" id="cont' + (i + 2) + '">' +
+                            '<p class="b_text1">Continue</p>' +
+                            '</div>' +
+                            '<div class="disable"></div>' +
+                            '</div>' +
+                            '<div class="disable_b"></div>' +
+                            '</div>');
+                }
+
+            })
+        </script>
+        <script type="text/javascript" src="custom_1.js"></script>
+
+    </head>
+    <body>
+
+        <div class="container">
+            <!--<div class="disable_b1"></div>-->
+
+            <div id="screen1" style="display: block;">
+                <div class="container1">
+                    <div class="blue_back"></div>
+                    <div class="head_0"><span id="page_s1"></span><span id="page_w1">True or False Activity</span></div>
+                    <div class="head_text"><span id="page_w2">Can you help the<br/>boy put his clothes on?</span></div>
+                    <img src="images/sort.png" class="pic_img1" alt="IMAGE. Pictures of clothing. Socks, a hoodie and a cap. END IMAGE" />
+                    <div class="play_btn pos">PLAY</div>
+                </div>
+            </div>
+            <div id="screen5" style="display: none;">
+                <p class="b_text_w3"><span>Well done! You helped the boy<br/>put on all his clothes. Now he<br/>is ready to go outside and play!</span></p>
+                <img class="frame_4" id="img01d" src="images/obj1168_image.png"/>
+                <div class="bottom_bar">
+                    <div class="exit" id="exit5">
+                        <p class="b_text">Exit</p>
+                    </div>
+                    <div class="restart" id="restart5">
+                        <p class="b_text">Restart</p>
+                    </div>
+                    <div class="cont_done">
+                        <div class="done">
+                            <a href="../14/page.xhtml"><div class="done_w">Done</div></a>
+                        </div>
+                    </div>
+                    <div class="disable"></div>
+                </div>
+            </div>
+
+            <audio id="ans_correct">
+                <source src="audio/answer_correct.ogg" type="audio/ogg"/>
+                <source src="audio/answer_correct.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="ans_wrong">
+                <source src="audio/answer_wrong.ogg" type="audio/ogg"/>
+                <source src="audio/answer_wrong.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="activity_done">
+                <source src="audio/activity_done.ogg" type="audio/ogg"/>
+                <source src="audio/activity_done.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="activity_start">
+                <source src="audio/activity_start.ogg" type="audio/ogg"/>
+                <source src="audio/activity_start.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="menu_continue">
+                <source src="audio/menu_continue.ogg" type="audio/ogg"/>
+                <source src="audio/menu_continue.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="menu_exit">
+                <source src="audio/menu_exit.ogg" type="audio/ogg"/>
+                <source src="audio/menu_exit.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="menu_restart">
+                <source src="audio/menu_restart.ogg" type="audio/ogg"/>
+                <source src="audio/menu_restart.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="answer_incorrect">
+                <source src="audio/ans/answer_incorrect.ogg" type="audio/ogg"/>
+                <source src="audio/ans/answer_incorrect.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="hat_correct">
+                <source src="audio/ans/hat_correct.ogg" type="audio/ogg"/>
+                <source src="audio/ans/hat_correct.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="hat_question">
+                <source src="audio/ans/hat_question.ogg" type="audio/ogg"/>
+                <source src="audio/ans/hat_question.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="hoodie_correct">
+                <source src="audio/ans/hoodie_correct.ogg" type="audio/ogg"/>
+                <source src="audio/ans/hoodie_correct.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="hoodie_question">
+                <source src="audio/ans/hoodie_question.ogg" type="audio/ogg"/>
+                <source src="audio/ans/hoodie_question.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="jeans_correct">
+                <source src="audio/ans/jeans_correct.ogg" type="audio/ogg"/>
+                <source src="audio/ans/jeans_correct.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="jeans_question">
+                <source src="audio/ans/jeans_question.ogg" type="audio/ogg"/>
+                <source src="audio/ans/jeans_question.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="shoes_correct">
+                <source src="audio/ans/shoes_correct.ogg" type="audio/ogg"/>
+                <source src="audio/ans/shoes_correct.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="shoes_question">
+                <source src="audio/ans/shoes_question.ogg" type="audio/ogg"/>
+                <source src="audio/ans/shoes_question.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="socks_correct">
+                <source src="audio/ans/socks_correct.ogg" type="audio/ogg"/>
+                <source src="audio/ans/socks_correct.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="socks_question">
+                <source src="audio/ans/socks_question.ogg" type="audio/ogg"/>
+                <source src="audio/ans/socks_question.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="well_done_all_clothes">
+                <source src="audio/ans/well_done_all_clothes.ogg" type="audio/ogg"/>
+                <source src="audio/ans/well_done_all_clothes.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+        </div>
+    </body>
+</html>

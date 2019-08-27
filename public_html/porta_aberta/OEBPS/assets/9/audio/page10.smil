@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smil xmlns="http://www.w3.org/ns/SMIL" xmlns:epub="http://www.idpf.org/2007/ops" version="3.0">
+
+    <body>
+        <par id="par0">
+            <text src="../page.xhtml#page_s1" />
+            <audio src="page10.m4a" clipBegin="0.000000" clipEnd="0.2" />
+        </par>
+        <par id="par1">
+            <text src="../page.xhtml#page_w1" />
+            <audio src="page10.m4a" clipBegin="0.2" clipEnd="3.209362" />
+        </par>
+        <par id="par2">
+            <text src="../page.xhtml#page_w2" />
+            <audio src="page10.m4a" clipBegin="3.209362" clipEnd="9.842961" />
+        </par>
+        <par id="par3">
+            <text src="../page.xhtml#page_w3" />
+            <audio src="page10.m4a" clipBegin="9.842961" clipEnd="13.699580" />
+        </par>
+        <par id="par4">
+            <text src="../page.xhtml#page_w4" />
+            <audio src="page10.m4a" clipBegin="13.699580" clipEnd="16.004372" />
+        </par>
+        <par id="par5">
+            <text src="../page.xhtml#page_w5" />
+            <audio src="page10.m4a" clipBegin="16.004372" clipEnd="23.213483" />
+        </par>
+        <par id="par6">
+            <text src="../page.xhtml#page_w6" />
+            <audio src="page10.m4a" clipBegin="23.213483" clipEnd="26.380186" />
+        </par>
+        <par id="par7">
+            <text src="../page.xhtml#page_w7" />
+            <audio src="page10.m4a" clipBegin="26.380186" clipEnd="29.022041" />
+        </par>
+
+    </body>
+</smil>

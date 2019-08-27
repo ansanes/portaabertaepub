@@ -1,0 +1,42 @@
+div.SCContent {
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background-image: url(../images/back.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+div.SCOverlay {
+	z-index: 2;
+}
+.boy_1 {
+	position: absolute;
+	top: 610px;
+	right: 30px;
+	width: 400px;
+	height: 800px;
+}
+.music {
+	position: absolute;
+	top: 110px;
+	left: 60px;
+	width: 100px;
+	height: 100px;
+}
+.text_1 {
+	position: absolute;
+	top: 128px;
+	left: 60px;
+}
+.head {
+	font-family: "OpenDyslexic3";
+	font-size: 50px;
+	color: #E33B44;
+	margin: 0px 0px 80px 130px;
+}
+.text {
+	font-family: "OpenDyslexic3_bold";
+	font-size: 45px;
+	line-height: 70px;
+	margin: 0px 0px 60px 30px;
+	word-spacing: 10px;
+}

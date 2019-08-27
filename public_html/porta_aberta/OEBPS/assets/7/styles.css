@@ -1,0 +1,169 @@
+div.SCContent {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+div.SCOverlay {
+	z-index: 2;
+}
+
+div#obj905 {
+position: absolute;
+overflow: hidden;
+top: 78px;
+left: 145px;
+width: 1810px;
+height: 102px;
+opacity: 1;
+z-index: 3;
+display:block;
+pointer-events: auto;
+
+font-family: "OpenDyslexic3";
+color: #000000;
+}
+div#obj2394 {
+position: absolute;
+overflow: hidden;
+top: 1445px;
+left: 870px;
+width: 280px;
+height: 58px;
+opacity: 1;
+z-index: 4;
+display:block;
+pointer-events: auto;
+
+}
+div#obj3194 {
+position: absolute;
+overflow: hidden;
+top: 1px;
+left: 0px;
+width: 2048px;
+height: 1411px;
+opacity: 1;
+z-index: 0;
+display:block;
+pointer-events: none;
+
+}
+img#obj3194_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 2048px;
+	height: 1411px;
+}
+div#obj961 {
+position: absolute;
+overflow: hidden;
+top: 1432px;
+left: 23px;
+width: 118px;
+height: 88px;
+opacity: 1;
+z-index: 7;
+display:block;
+pointer-events: none;
+
+}
+img#obj961_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 118px;
+	height: 88px;
+}
+
+
+
+
+div#obj1076 {
+position: absolute;
+overflow: hidden;
+top: 213px;
+left: 90px;
+width: 1837px;
+height: 1160px;
+opacity: 1;
+z-index: 1;
+display:block;
+pointer-events: none;
+
+background-image: none;
+border-color: #000000;
+border-width: 1px;
+border-style: solid;
+border-radius: 15px;
+-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+background-color: #009FDE;
+background-repeat: repeat;
+}
+div#obj2995 {
+position: absolute;
+overflow: hidden;
+top: 1407px;
+left: -13px;
+width: 2074px;
+height: 134px;
+opacity: 1;
+z-index: 6;
+display:block;
+pointer-events: none;
+
+background-image: none;
+border-color: rgba(142,142,142,0.627451);
+border-width: 1px;
+border-style: solid;
+border-radius: 0px;
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+background-color: rgba(174,174,174,0.2039216);
+background-repeat: repeat;
+}
+
+
+
+
+
+
+/* This defines look and size of the card */
+div#obj903 {
+position: absolute;
+overflow: hidden;
+top: 355px;
+left: 289px;
+width: 1408px;
+height: 894px;
+opacity: 1;
+z-index: 2;
+display:block;
+pointer-events: auto;
+
+}
+div#obj903 .card-inner {
+    padding:  10px; /* distance between border and image */
+    height:  253px; 
+    width:   253px;
+    background-color: #FFFFFF;
+    border: 1px solid #444444;
+    border-radius: 8px;
+}
+/* This defines the card grid cell */
+div#obj903 .card {
+    margin:  5px; /* distance between cards column */
+    height: 275px; /* this have to be .card-inner->height + .card-inner->padding */
+    width:  275px; /* this have to be .card-inner->width + .card-inner->padding */    
+}
+/* This defines look and size gameboard area */
+div#obj903.card-table {
+    padding: 5px; /* this have to be .cart->margin */
+    /*border: none; 
+    border-radius: 10px;
+    background-color: transparent;*/
+}
+
+.SCPage {
+background-color: #FFFFFF
+}

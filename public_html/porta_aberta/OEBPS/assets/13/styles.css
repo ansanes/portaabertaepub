@@ -1,0 +1,68 @@
+@import "../../css/general.styles.css";
+body > div.container {
+	position: relative;
+	overflow: hidden;
+	width: 2048px;
+	height: 1536px;
+	background-image: url(images/back.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+div.container1 {
+	position: relative;
+	overflow: hidden;
+	width: 2048px;
+	height: 1536px;
+	background-image: url(../images/back0.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+div.blue_back {
+	position: relative;
+	overflow: hidden;
+	width: 1918px;
+	height: 1416px;
+	background-color: #0099FF;
+	opacity: 0.9;
+	margin: 60px;
+	border-radius: 60px;
+	display: block;
+}
+.eye {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	width: 280px;
+	height: 130px;
+}
+.head_0 {
+	font-family: "OpenDyslexic3";
+	color: white;
+	line-height: 100px;
+	font-size: 90px;
+	position: absolute;
+	top: 130px;
+	left: 0px;
+	width: 2000px;
+	text-align: center;
+}
+.pic_img1 {
+	position: absolute;
+	top: 630px;
+	left: 446px;
+	width: 1160px;
+	height: 520px;
+	/* box-shadow: 2px 6px 31px black; */
+}
+.head_text {
+	font-family: "OpenDyslexic3";
+	text-align: center;
+	color: white;
+	width: 1500px;
+	line-height: 90px;
+	font-size: 60px;
+	position: absolute;
+	top: 310px;
+	left: 0px;
+	width: 2000px;
+}

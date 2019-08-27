@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ibooks="http://apple.com/ibooks/html-extensions">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Memory Activity</title>
+        <meta name="viewport" content="width=2048, height=1536" /> 
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <link rel="stylesheet" type="text/css" href="styles1.css" />
+        <script type="text/javascript" src="../../js/jquery.js"></script>
+        <script type="text/javascript" src="../../js/pageFunctions.js"></script>
+        <script type="text/javascript" src="custom.js"></script>
+        <script type="text/javascript" src="../../js/general.functions.js"></script>
+        <script type="text/javascript" src="../../js/pubcoder.js"></script>
+        <script type="text/javascript" src="../../js/scw_widgets.js"></script>
+        <script type="text/javascript" src="../../js/scw_memory_game.js"></script>
+        <script type="text/javascript" src="actions.js"></script>
+    </head>
+    <body>
+
+        <div class="container">
+            <!--<div class="disable_b1"></div>-->
+
+            <div id="screen1" style="display: block;">
+                <div class="container1">
+                    <div class="blue_back"><img src="../images/both.png" alt="" class="eye" /></div>
+                    <div class="head_0"><span id="page_s1"></span><span id="page_w1">Memory Activity</span></div>
+                    <div class="head_text"><span id="page_w2">Do you want to play a memory activity<br/>with animals?</span></div>
+                    <img src="images/sort.png" class="pic_img1" alt="" />
+                    <div class="play_btn pos">PLAY</div>
+                </div>
+            </div>
+
+            <div id="screen2" style="display: none;">
+                <div id="head_1" class="head_text1"><span>Here are all the Animals!</span></div>
+                <div id="find_1" class="head_text1 d_none"><span>Can you find the pairs of Animals?</span></div>
+                <div id="wrong" class="head_text1 d_none"><span>That's not a pair! Try Again!</span></div>
+                <div id="well_done" class="head_text1 d_none"><span>Well Done! You found a pair of Animals!</span></div>
+                <div id="well_done1" class="head_text1 d_none"><span>You found all the pairs of Animals!</span></div>
+                <div class="memorygame">
+                    <div id="obj903" class="SCWidget SCWMemoryGame card-table SCPageObject SCMemoryGame" data-widget="SCWMemoryGame" data-num-of-columns="0" data-autostart="true" data-start-face-up="false" data-start-face-down-delay="3" data-flip-card-sound-id="" > 
+                        <div class="card flip-container">
+                            <div class="card-container flipper flip">
+                                <div class="card-inner back">
+                                    <img src="../images/memoryGame903_card1.png" />
+                                </div>
+                                <div class="card-inner front">
+                                    <img src="../images/memoryGame903_card0.jpeg" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card flip-container">
+                            <div class="card-container flipper flip">
+                                <div class="card-inner back">
+                                    <img src="../images/memoryGame903_card2.png" />
+                                </div>
+                                <div class="card-inner front">
+                                    <img src="../images/memoryGame903_card0.jpeg" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card flip-container">
+                            <div class="card-container flipper flip">
+                                <div class="card-inner back">
+                                    <img src="../images/memoryGame903_card3.png" />
+                                </div>
+                                <div class="card-inner front">
+                                    <img src="../images/memoryGame903_card0.jpeg" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card flip-container">
+                            <div class="card-container flipper flip">
+                                <div class="card-inner back">
+                                    <img src="../images/memoryGame903_card4.png" />
+                                </div>
+                                <div class="card-inner front">
+                                    <img src="../images/memoryGame903_card0.jpeg" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card flip-container">
+                            <div class="card-container flipper flip">
+                                <div class="card-inner back">
+                                    <img src="../images/memoryGame903_card5.png" />
+                                </div>
+                                <div class="card-inner front">
+                                    <img src="../images/memoryGame903_card0.jpeg" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card flip-container">
+                            <div class="card-container flipper flip">
+                                <div class="card-inner back">
+                                    <img src="../images/memoryGame903_card6.png" />
+                                </div>
+                                <div class="card-inner front">
+                                    <img src="../images/memoryGame903_card0.jpeg" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom_bar">
+                    <div class="exit" id="exit">
+                        <p class="b_text">Exit</p>
+                    </div>
+                    <div class="restart" id="restart">
+                        <p class="b_text">Restart</p>
+                    </div>
+                    <div class="cont" id="cont2">
+                        <p class="b_text1">Continue</p>
+                    </div>
+                    <div class="disable"></div>
+                </div>
+                <!--<div class="disable_b"></div>-->
+            </div>
+
+            <div id="screen3" style="display: none;">
+                <div id="head_3" class="head_text1"><span>How many pairs of Animals did you find?</span></div>
+                <!--<div id="wrong_1" class="head_text1 d_none"><span>Are you sure? Try counting the pairs again!</span></div>
+                <div id="right_1" class="head_text1 d_none"><span>Well Done! You found SIX pairs of Animals!</span></div>-->
+                <img src="images/s3_pic.png" alt="" class="s3_pic" />
+                <div class="s3_btn">
+                    <span class="s3_num s3_w1">1</span>
+                    <span class="s3_num s3_w1">2</span>
+                    <span class="s3_num s3_w1">3</span>
+                    <span class="s3_num s3_w1">4</span>
+                    <span class="s3_num s3_w1">5</span>
+                    <span class="s3_num s3_r1">6</span>
+                </div>
+                <div class="bottom_bar">
+                    <div class="exit" id="exit1">
+                        <p class="b_text">Exit</p>
+                    </div>
+                    <div class="restart" id="restart1">
+                        <p class="b_text">Restart</p>
+                    </div>
+                    <div class="cont" id="cont3">
+                        <p class="b_text1">Continue</p>
+                    </div>
+                    <div class="disable"></div>
+                </div>
+            </div>
+
+            <div id="screen4" style="display: none;">
+                <div id="head_4" class="head_text1 b_color"><span>Well Done! You found SIX pairs of Animals!</span></div>
+                <img src="images/s4_done.png" class="s3_done" alt="done" />
+                <div class="s4_cat">CAT</div>
+                <div class="s4_birds">BIRDS</div>
+                <div class="s4_rooster">ROOSTER</div>
+                <div class="s4_turkey">TURKEY</div>
+                <div class="s4_dog">DOG</div>
+                <div class="s4_cows">COWS</div>
+                <div class="bottom_bar">
+                    <div class="exit" id="exit2">
+                        <p class="b_text">Exit</p>
+                    </div>
+                    <div class="restart" id="restart2">
+                        <p class="b_text">Restart</p>
+                    </div>
+                    <div class="cont_done" id="cont4">
+                        <p class="b_text1">Continue</p>
+                        <div class="done" id="done1">
+                            <a href="../8/page.xhtml"><div class="b_text_w">Done</div></a>
+                        </div>
+                    </div>
+                    <div class="disable"></div>
+                </div>
+                <!--<div class="disable_b"></div>-->
+            </div>
+
+            <audio id="card_flip">
+                <source src="audio/card_flip.ogg" type="audio/ogg"/>
+                <source src="audio/card_flip.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="turkey_sound">
+                <source src="audio/turkey.ogg" type="audio/ogg"/>
+                <source src="audio/turkey.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="dog_sound">
+                <source src="audio/dog.ogg" type="audio/ogg"/>
+                <source src="audio/dog.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="birds_sound">
+                <source src="audio/birds.ogg" type="audio/ogg"/>
+                <source src="audio/birds.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="rooster_sound">
+                <source src="audio/rooster.ogg" type="audio/ogg"/>
+                <source src="audio/rooster.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="cat_sound">
+                <source src="audio/cat.ogg" type="audio/ogg"/>
+                <source src="audio/cat.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="cows_sound">
+                <source src="audio/cows.ogg" type="audio/ogg"/>
+                <source src="audio/cows.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="ans_correct">
+                <source src="audio/answer_correct.ogg" type="audio/ogg"/>
+                <source src="audio/answer_correct.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="ans_wrong">
+                <source src="audio/answer_wrong.ogg" type="audio/ogg"/>
+                <source src="audio/answer_wrong.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="activity_done">
+                <source src="audio/activity_done.ogg" type="audio/ogg"/>
+                <source src="audio/activity_done.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="activity_start">
+                <source src="audio/activity_start.ogg" type="audio/ogg"/>
+                <source src="audio/activity_start.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="menu_continue">
+                <source src="audio/menu_continue.ogg" type="audio/ogg"/>
+                <source src="audio/menu_continue.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="menu_exit">
+                <source src="audio/menu_exit.ogg" type="audio/ogg"/>
+                <source src="audio/menu_exit.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="menu_restart">
+                <source src="audio/menu_restart.ogg" type="audio/ogg"/>
+                <source src="audio/menu_restart.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="answer_correct">
+                <source src="audio/ans/answer_correct.ogg" type="audio/ogg"/>
+                <source src="audio/ans/answer_correct.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="answer_incorrect">
+                <source src="audio/ans/answer_incorrect.ogg" type="audio/ogg"/>
+                <source src="audio/ans/answer_incorrect.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="are_you_sure">
+                <source src="audio/ans/are_you_sure.ogg" type="audio/ogg"/>
+                <source src="audio/ans/are_you_sure.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="can_you_find_pairs">
+                <source src="audio/ans/can_you_find_pairs.ogg" type="audio/ogg"/>
+                <source src="audio/ans/can_you_find_pairs.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="here_are_all_animals">
+                <source src="audio/ans/here_are_all_animals.ogg" type="audio/ogg"/>
+                <source src="audio/ans/here_are_all_animals.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="how_many_pairs">
+                <source src="audio/ans/how_many_pairs.ogg" type="audio/ogg"/>
+                <source src="audio/ans/how_many_pairs.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="well_done_six_pairs">
+                <source src="audio/ans/well_done_six_pairs.ogg" type="audio/ogg"/>
+                <source src="audio/ans/well_done_six_pairs.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+        </div>
+    </body>
+</html>

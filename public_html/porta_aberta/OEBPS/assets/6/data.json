@@ -1,0 +1,62 @@
+var activityData = {
+    "place": "farm",
+    "types": ["animal", "person", "plant"],
+    "youSortedText":"You sorted<br/>the animals,<br/>people, and<br/>plants into<br/>the correct<br/>categories!",
+    "values": [
+        {
+            "name": "boy",
+            "type": "person",
+            "borderImage": "square_boy.jpg",
+            "borderImageDesc": "IMAGE. Image of a boy waving. END IMAGE"            
+        },
+        {
+            "name": "dog",
+            "type": "animal",
+            "borderImage": "square_dog.jpg",
+            "borderImageDesc": "IMAGE. Image of a boy waving. END IMAGE"
+        },
+        {
+            "name": "duck",
+            "type": "animal",
+            "borderImage": "square_duck.jpg",
+            "borderImageDesc": "IMAGE. Image of a duck. END IMAGE"
+        },
+        {
+            "name": "man",
+            "type": "person",
+            "borderImage": "square_man.jpg",
+            "borderImageDesc": "IMAGE. Image of a man. END IMAGE"
+        },
+        {
+            "name": "hangingplant",
+            "type": "plant",
+            "borderImage": "square_hangingplant.jpg",
+            "borderImageDesc": "IMAGE. Image of a hanging plant. END IMAGE"
+        },
+        {
+            "name": "cat",
+            "type": "animal",
+            "borderImage": "square_cat.jpg",
+            "borderImageDesc": "IMAGE. Image of cat curled up asleep. END IMAGE"
+        },
+
+        {
+            "name": "pottedplant",
+            "type": "plant",
+            "borderImage": "square_pottedplant.jpg",
+            "borderImageDesc": "IMAGE. Image of a potted plant. END IMAGE"
+        },
+        {
+            "name": "woman",
+            "type": "person",
+            "borderImage": "square_woman.jpg",
+            "borderImageDesc": "IMAGE. Image of a woman. END IMAGE"
+        },
+        {
+            "name": "trees",
+            "type": "plant",
+            "borderImage": "square_trees.jpg",
+            "borderImageDesc": "IMAGE. Image of a tree. END IMAGE"
+        }
+    ]
+};

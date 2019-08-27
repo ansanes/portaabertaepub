@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ibooks="http://apple.com/ibooks/html-extensions">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Listening Activity</title>
+        <meta name="viewport" content="width=2048, height=1536" /> 
+        <link rel="stylesheet" type="text/css" href="../../css/general.styles.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/general.styles1.css" />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <link rel="stylesheet" type="text/css" href="styles1.css" />
+        <script type="text/javascript" src="../../js/jquery.js"></script>
+        <script type="text/javascript" src="../../js/pageFunctions.js"></script>
+        <script type="text/javascript" src="custom.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <!--<div class="disable_b1"></div>-->
+            <div id="screen0" style="display: block;">
+                <div class="container1">
+                    <div class="blue_back"><img src="../images/obj3075_image.png" alt="" class="eye" /></div>
+                    <div class="head_0"><span id="page_s1"></span><span id="page_w1">Listening Activity</span><span id="page_s1"></span></div>
+                    <img src="images/moo.png" class="pic_img1" alt="IMAGE. A picture of a Turkey making a Moo sound. END IMAGE" />
+                    <div class="head_text"><span id="page_w2">Listen to the animal sounds and select the animal<br/>that matches!</span><span id="page_s2"></span></div>
+                    <div class="play_btn">PLAY</div>
+                </div>
+            </div>
+
+            <div id="screen1" style="display: none;">
+                <p class="head"></p>
+                <img src="images/sound.png" alt="" class="sound" id="sound1" />
+                <div class="for_click">
+                    <div class="wrong" id="dog_01">
+                        <div class="icon"><img src="images/dog.jpg" alt="BUTTON. A Dog. END BUTTON" class="img_1" /></div>
+                        <div class="text" aria-hidden="true">Dog</div>
+                    </div>
+                    <div class="right" id="cat_01">
+                        <div class="icon"><img src="images/cat.jpg" alt="BUTTON. A Cat. END IAMGE" class="img_1" /></div>
+                        <div class="text" aria-hidden="true">Cat</div>
+                    </div>
+                    <p class="text_0">The cat has four paws and is curled up asleep on a mat.</p>
+                </div>
+                <div class="bottom_bar">
+                    <div class="exit" id="exit">
+                        <p class="b_text">Exit</p>
+                    </div>
+                    <div class="restart" id="restart">
+                        <p class="b_text">Restart</p>
+                    </div>
+                    <div class="cont" id="cont">
+                        <p class="b_text1">Continue</p>
+                    </div>
+                    <div class="disable"></div>
+                </div>
+            </div>
+
+            <div id="screen2" style="display: none;">
+                <p class="head">What animal is making that sound?</p>
+                <img src="images/sound.png" alt="" class="sound" id="sound2" />
+                <div class="for_click">
+                    <div class="wrong" id="turkey_01">
+                        <div class="icon"><img src="images/Rooster.jpg" alt="BUTTON. A Rooster. END BUTTON." class="img_1" /></div>
+                        <div class="text" aria-hidden="true">Rooster</div>
+                    </div>
+                    <div class="right" id="rooster_01">
+                        <div class="icon"><img src="images/Turkey.jpg" alt="BUTTON. A Turkey. END BUTTON" class="img_1" /></div>
+                        <div class="text" aria-hidden="true">Turkey</div>
+                    </div>
+                    <p class="text_0">The rooster has two wings, brown feathers, and a red comb on its head.</p>
+                </div>
+                <div class="bottom_bar">
+                    <div class="exit" id="exit1">
+                        <div class="b_text">Exit</div>
+                    </div>
+                    <div class="restart" id="restart1">
+                        <div class="b_text">Restart</div>
+                    </div>
+                    <div class="cont" id="cont1">
+                        <div class="b_text1">Continue</div>
+                    </div>
+                    <div class="disable"></div>
+                </div>
+            </div>
+
+            <div id="screen2a" style="display: none;">
+                <p class="head">What animal is making that sound?</p>
+                <img src="images/sound.png" alt="" class="sound" id="sound2a" />
+                <div class="for_click">
+                    <div class="right" id="cow_01">
+                        <div class="icon"><img src="images/square_cow.jpg" alt="BUTTON. Two Cows. END BUTTON" class="img_1" /></div>
+                        <div class="text" aria-hidden="true">Cow</div>
+                    </div>
+                    <div class="wrong" id="parrot_01">
+                        <div class="icon"><img src="images/square_parrot.jpg" alt="BUTTON. A Parrot. END BUTTON" class="img_1" /></div>
+                        <div class="text" aria-hidden="true">Parrot</div>
+                    </div>
+                    <p class="text_0">The cow has brown spots and eating grass in a field with other cows.</p>
+                </div>
+                <div class="bottom_bar">
+                    <div class="exit" id="exit1a">
+                        <div class="b_text">Exit</div>
+                    </div>
+                    <div class="restart" id="restart1a">
+                        <div class="b_text">Restart</div>
+                    </div>
+                    <div class="cont" id="cont1a">
+                        <div class="b_text1">Continue</div>
+                    </div>
+                    <div class="disable"></div>
+                </div>
+            </div>
+
+            <div id="screen2b" style="display: none;">
+                <p class="head"><span>What animal is making that sound?</span></p>
+                <img src="images/sound.png" alt="" class="sound" id="sound2b" />
+                <div class="for_click">
+                    <div class="wrong" id="bird_01">
+                        <div class="icon"><img src="images/square_birds.jpg" alt="BUTTON. Two Blue Birds. END BUTTON" class="img_1" /></div>
+                        <div class="text" aria-hidden="true">Bird</div>
+                    </div>
+                    <div class="right" id="bee_01">
+                        <div class="icon"><img src="images/square_bee.jpg" alt="BUTTON. A Bee. END BUTTON" class="img_1" /></div>
+                        <div class="text" aria-hidden="true">Bee</div>
+                    </div>
+                    <p class="text_0">The bee has yellow and black stripes and is buzzing around the farm.</p>
+                </div>
+                <div class="bottom_bar">
+                    <div class="exit" id="exit1b">
+                        <div class="b_text">Exit</div>
+                    </div>
+                    <div class="restart" id="restart1b">
+                        <div class="b_text">Restart</div>
+                    </div>
+                    <div class="cont" id="cont1b">
+                        <div class="b_text1">Continue</div>
+                    </div>
+                    <div class="disable"></div>
+                </div>
+            </div>
+
+            <div id="screen2c" style="display: none;">
+                <p class="head"><span>What animal is making that sound?</span></p>
+                <img src="images/sound.png" alt="" class="sound" id="sound2c" />
+                <div class="for_click">
+                    <div class="wrong" id="chicken_01">
+                        <div class="icon"><img src="images/square_chicken.jpg" alt="BUTTON. A Chicken and a baby Chick. END BUTTON" class="img_1" /></div>
+                        <div class="text" aria-hidden="true">Chicken</div>
+                    </div>
+                    <div class="right" id="duck_01">
+                        <div class="icon"><img src="images/square_duck.jpg" alt="BUTTON. A Duck. END BUTTON" class="img_1" /></div>
+                        <div class="text" aria-hidden="true">Duck</div>
+                    </div>
+                    <p class="text_0">The duck has white feathers, two wings, and is waddling around the farm.</p>
+                </div>
+                <div class="bottom_bar">
+                    <div class="exit" id="exit1c">
+                        <div class="b_text">Exit</div>
+                    </div>
+                    <div class="restart" id="restart1c">
+                        <div class="b_text">Restart</div>
+                    </div>
+                    <div class="cont" id="cont1c">
+                        <div class="b_text1">Continue</div>
+                    </div>
+                    <div class="disable"></div>
+                </div>
+            </div>
+
+            <div id="screen3" style="display: none;">
+                <p class="head_w"><span>Well Done! You correctly<br/>identified all the animals and<br/>their sounds!</span></p>
+                <div class="well_done">
+                    <img id="square_cat" src="images/square_cat.jpg" class="float_l" alt="IMAGE. The cat has four paws and is curled up asleep on the mat. END IMAGE" />
+                    <img id="square_duck" src="images/square_duck.jpg" class="float_l" alt="IMAGE. The duck has white feathers, two wings, and is waddling around the farm. END IMAGE" />
+                    <img id="square_cows" src="images/square_cow.jpg" class="float_l" alt="IMAGE. The cow has brown spots and eating grass in a field with other cows. END IMAGE" />
+                    <img id="square_bee" src="images/square_bee.jpg" class="float_l1" alt="IMAGE. The bee has yellow and black stripes and is buzzing around the farm. END IMAGE" />
+                    <img id="square_rooster" src="images/square_rooster.jpg" class="float_l" alt="IMAGE. The rooster has two wings, brown feathers, and a red comb on its head. END IMAGE" />
+                </div>
+                <div class="bottom_bar">
+                    <div class="exit" id="exit2">
+                        <div class="b_text">Exit</div>
+                    </div>
+                    <div class="restart" id="restart2">
+                        <div class="b_text">Restart</div>
+                    </div>
+                    <div class="cont_g" id="cont2">
+                        <div class="b_text_w">Continue</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="screen4" style="display: none;">
+                <div class="back_01"></div>
+                <div class="message">
+                    <p class="msg"><span>Here are some other animal<br/>sounds you might find<br/>on a farm!</span></p>
+                </div>
+                <div class="bottom_bar">
+                    <div class="exit" id="exit3">
+                        <div class="b_text">Exit</div>
+                    </div>
+                    <div class="restart" id="restart3">
+                        <div class="b_text">Restart</div>
+                    </div>
+                    <div class="cont_g" id="cont3">
+                        <div class="b_text_w">Continue</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="screen5" style="display: none;">
+                <div class="message1">
+                    <p class="msg1"><span>That's the sound a turkey makes!</span></p>
+                    <p class="msg2"><span>The turkey has two wings, two feet, a beak, and a red wobbly chin.</span></p>
+                </div>
+                <div class="pic_1">
+                    <img id="turkey01" src="images/Turkey.jpg" alt="BUTTON. A Turkey. END BUTTON" class="pic_img" />
+                    <p class="text_c">Turkey</p>
+                </div>
+                <div class="bottom_bar">
+                    <div class="exit" id="exit4">
+                        <div class="b_text">Exit</div>
+                    </div>
+                    <div class="restart" id="restart4">
+                        <div class="b_text">Restart</div>
+                    </div>
+                    <div class="cont_g" id="cont4">
+                        <div class="b_text_w">Continue</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="screen6" style="display: none;">
+                <div class="message1">
+                    <p class="msg1"><span>That's the sound a chicken makes!</span></p>
+                    <p class="msg2"><span>The chicken has brown and white feathers, a beak, and is being followed around by its baby chicks.</span></p>
+                </div>
+                <div class="pic_1">
+                    <img id="chicken01" src="images/capture.png" alt="BUTTON. A Chicken. END BUTTON" class="pic_img" />
+                    <p class="text_c">Chicken</p>
+                </div>
+                <div class="bottom_bar">
+                    <div class="exit" id="exit5">
+                        <div class="b_text">Exit</div>
+                    </div>
+                    <div class="restart" id="restart5">
+                        <div class="b_text">Restart</div>
+                    </div>
+                    <div class="done" id="cont5">
+                        <a href="../6/page.xhtml"><div class="b_text_w">Done</div></a>
+                    </div>
+                </div>
+            </div>
+
+            <audio id="cataudio">
+                <!--<source src="audio/cat.wav" type="audio/wav"/>-->
+                <source src="audio/cat.ogg" type="audio/ogg"/>
+                <source src="audio/cat.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="roosteraudio">
+                <!--<source src="audio/rooster.wav" type="audio/wav"/>-->
+                <source src="audio/rooster.ogg" type="audio/ogg"/>
+                <source src="audio/rooster.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="ans_correct">
+                <!--<source src="audio/answer_correct.wav" type="audio/wav"/>-->
+                <source src="audio/answer_correct.ogg" type="audio/ogg"/>
+                <source src="audio/answer_correct.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="ans_wrong">
+                <source src="audio/answer_wrong.ogg" type="audio/ogg"/>
+                <source src="audio/answer_wrong.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="activity_done">
+                <source src="audio/activity_done.ogg" type="audio/ogg"/>
+                <source src="audio/activity_done.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="activity_start">
+                <source src="audio/activity_start.ogg" type="audio/ogg"/>
+                <source src="audio/activity_start.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="menu_continue">
+                <source src="audio/menu_continue.ogg" type="audio/ogg"/>
+                <source src="audio/menu_continue.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="menu_exit">
+                <source src="audio/menu_exit.ogg" type="audio/ogg"/>
+                <source src="audio/menu_exit.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="menu_restart">
+                <source src="audio/menu_restart.ogg" type="audio/ogg"/>
+                <source src="audio/menu_restart.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="chicken">
+                <source src="audio/chicken.ogg" type="audio/ogg"/>
+                <source src="audio/chicken.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="turkey">
+                <source src="audio/turkey.ogg" type="audio/ogg"/>
+                <source src="audio/turkey.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="duck">
+                <source src="audio/duck.ogg" type="audio/ogg"/>
+                <source src="audio/duck.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="cows">
+                <source src="audio/cows.ogg" type="audio/ogg"/>
+                <source src="audio/cows.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="bee">
+                <source src="audio/bee.ogg" type="audio/ogg"/>
+                <source src="audio/bee.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="cat_correct">
+                <source src="audio/ans/cat_correct.ogg" type="audio/ogg"/>
+                <source src="audio/ans/cat_correct.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="cow_correct">
+                <source src="audio/ans/cow_correct.ogg" type="audio/ogg"/>
+                <source src="audio/ans/cow_correct.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="parrot_incorrect">
+                <source src="audio/ans/parrot_incorrect.ogg" type="audio/ogg"/>
+                <source src="audio/ans/parrot_incorrect.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="duck_correct">
+                <source src="audio/ans/duck_correct.ogg" type="audio/ogg"/>
+                <source src="audio/ans/duck_correct.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="chicken_incorrect">
+                <source src="audio/ans/chicken_incorrect.ogg" type="audio/ogg"/>
+                <source src="audio/ans/chicken_incorrect.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="bird_incorrect">
+                <source src="audio/ans/bird_incorrect.ogg" type="audio/ogg"/>
+                <source src="audio/ans/bird_incorrect.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="bee_correct">
+                <source src="audio/ans/bee_correct.ogg" type="audio/ogg"/>
+                <source src="audio/ans/bee_correct.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="chicken_example">
+                <source src="audio/ans/chicken_example.ogg" type="audio/ogg"/>
+                <source src="audio/ans/chicken_example.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="dog_incorrect">
+                <source src="audio/ans/dog_incorrect.ogg" type="audio/ogg"/>
+                <source src="audio/ans/dog_incorrect.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="here_are_other_animals">
+                <source src="audio/ans/here_are_other_animals.ogg" type="audio/ogg"/>
+                <source src="audio/ans/here_are_other_animals.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="rooster_correct">
+                <source src="audio/ans/rooster_correct.ogg" type="audio/ogg"/>
+                <source src="audio/ans/rooster_correct.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="turkey_example">
+                <source src="audio/ans/turkey_example.ogg" type="audio/ogg"/>
+                <source src="audio/ans/turkey_example.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="turkey_incorrect">
+                <source src="audio/ans/turkey_incorrect.ogg" type="audio/ogg"/>
+                <source src="audio/ans/turkey_incorrect.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="well_done_all_animals">
+                <source src="audio/ans/well_done_all_animals.ogg" type="audio/ogg"/>
+                <source src="audio/ans/well_done_all_animals.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+            <audio id="what_animal_is_making">
+                <source src="audio/ans/what_animal_is_making.ogg" type="audio/ogg"/>
+                <source src="audio/ans/what_animal_is_making.m4a" type="audio/mpeg"/>
+                Your browser doesn't support the HTML audio tag.
+            </audio>
+
+        </div>
+    </body>
+</html>

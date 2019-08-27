@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ibooks="http://apple.com/ibooks/html-extensions">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Sorting Activity</title>
+    <meta name="viewport" content="width=2048, height=1536" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script type="text/javascript" src="../../js/jquery.js"></script>
+    <script type="text/javascript" src="../../js/pageFunctions.js"></script>
+    <script type="text/javascript" src="custom.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!--<div class="disable_b2"></div>-->
+        <div id="screen1" style="display: block;">
+            <div class="container1">
+                <div class="blue_back"><img src="../images/both.png" alt="" class="eye" /></div>
+                <div class="head_0"><span id="page_s1"></span><span id="page_w1">Sorting Activity</span></div>
+                <div class="head_text"><span id="page_w2">Help us sort things from the farm<br/>into the correct categories!</span></div>
+                <img src="images/sort.png" class="pic_img1" alt="IMAGE. A pile of photos taken from the farm. The top photo is an image of boy waving hello. END IMAGE." />
+                <div class="play_btn pos">PLAY</div>
+            </div>
+        </div>
+        <div id="screen2" style="display: none;">
+            <div class="head_2"><span>Here are nine pictures we<br/>took on the farm!</span></div>
+            <div class="border_2">
+                <div class="pic_frame1"><img src="images/square_boy.jpg" alt="IMAGE. Image of a boy waving. END IMAGE" /></div>
+                <div class="pic_frame"><img src="images/square_dog.jpg" alt="IMAGE. Image of a dog croaching. END IMAGE" /></div>
+                <div class="pic_frame"><img src="images/square_duck.jpg" alt="IMAGE. Image of a duck. END IMAGE" /></div>
+                <div class="pic_frame2"><img src="images/square_man.jpg" alt="IMAGE. Image of a man. END IMAGE" /></div>
+                <div class="pic_frame3"><img src="images/square_hangingplant.jpg" alt="IMAGE. Image of a hanging plant. END IMAGE" /></div>
+                <div class="pic_frame"><img src="images/square_cat.jpg" alt="IMAGE. Image of cat curled up asleep. END IMAGE" /></div>
+                <div class="pic_frame"><img src="images/square_pottedplant.jpg" alt="IMAGE. Image of a potted plant. END IMAGE" /></div>
+                <div class="pic_frame"><img src="images/square_woman.jpg" alt="IMAGE. Image of a woman. END IMAGE" /></div>
+                <div class="pic_frame"><img src="images/square_trees.jpg" alt="IMAGE. Image of a tree. END IMAGE" /></div>
+            </div>
+            <div class="bottom_bar">
+                <div class="exit" id="exit">
+                    <p class="b_text">Exit</p>
+                </div>
+                <div class="restart" id="restart">
+                    <p class="b_text">Restart</p>
+                </div>
+                <div class="cont_g" id="cont2">
+                    <p class="b_text1" style="color: white;">Continue</p>
+                </div>
+                <div class="disable"></div>
+            </div>
+        </div>
+        <div id="screen3" style="display: none;">
+            <div class="head_3"><span>Sort the picture into the<br/>correct category!</span></div>
+            <div class="border_3">
+                <div class="you_sorted d_none"><span>You sorted<br/>the animals,<br/>people, and<br/>plants into<br/>the correct<br/>categories!</span></div>
+            </div>
+            <div class="frame_img">
+                <img src="images/square_boy.jpg" class="icon r1 active" alt="IMAGE. Image of a boy waving. END IMAGE" />
+                <img src="images/square_dog.jpg" class="icon r2" alt="IMAGE. Image of a dog croaching. END IMAGE" />
+                <img src="images/square_duck.jpg" class="icon r3" alt="IMAGE. Image of a duck. END IMAGE" />
+                <img src="images/square_man.jpg" class="icon r4" alt="IMAGE. Image of a man. END IMAGE" />
+                <img src="images/square_hangingplant.jpg" class="icon r5" alt="IMAGE. Image of a hanging plant. END IMAGE" />
+                <img src="images/square_cat.jpg" class="icon r6" alt="IMAGE. Image of cat curled up asleep. END IMAGE" />
+                <img src="images/square_pottedplant.jpg" class="icon r7" alt="IMAGE. Image of a potted plant. END IMAGE" />
+                <img src="images/square_woman.jpg" class="icon r8" alt="IMAGE. Image of a woman. END IMAGE" />
+                <img src="images/square_trees.jpg" class="icon r9" alt="IMAGE. Image of a tree. END IMAGE" />
+            </div>
+            <div class="click_area">
+                <div class="animal" id="animal">
+                    <img src="images/right_sign.png" class="right_sign d_none" alt="" />
+                    <p class="btn_text btn">Animal</p>
+                    <img id="square_dog" src="images/square_dog.jpg" class="right_ans d_none" alt="" />
+                    <img id="square_duck" src="images/square_duck.jpg" class="right_ans d_none" alt="" />
+                    <img id="square_cat" src="images/square_cat.jpg" class="right_ans d_none" alt="" />
+                </div>
+                <div class="person btn" id="person">
+                    <img src="images/right_sign.png" class="right_sign d_none" alt="" />
+                    <p class="btn_text">Person</p>
+                    <img id="square_boy" src="images/square_boy.jpg" class="right_ans d_none" alt="" />
+                    <img id="square_man" src="images/square_man.jpg" class="right_ans d_none" alt="" />
+                    <img id="square_woman" src="images/square_woman.jpg" class="right_ans d_none" alt="" />
+                </div>
+                <div class="plant btn" id="plant">
+                    <img src="images/right_sign.png" class="right_sign d_none" alt="" />
+                    <p class="btn_text">Plant</p>
+                    <img id="square_hangingplant" src="images/square_hangingplant.jpg" class="right_ans d_none" alt="" />
+                    <img id="square_pottedplant" src="images/square_pottedplant.jpg" class="right_ans d_none" alt="" />
+                    <img id="square_trees" src="images/square_trees.jpg" class="right_ans d_none" alt="" />
+                </div>
+            </div>
+            <div class="bottom_bar">
+                <div class="exit" id="exit1">
+                    <p class="b_text">Exit</p>
+                </div>
+                <div class="restart" id="restart1">
+                    <p class="b_text">Restart</p>
+                </div>
+                <div class="cont_done" id="cont3">
+                    <p class="b_text1">Continue</p>
+                    <div class="done d_none" id="cont5">
+                        <a href="../7/page.xhtml">
+                            <div class="b_text_w">Done</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="disable_b1"></div>
+        </div>
+        <audio id="ans_correct">
+            <source src="audio/answer_correct.ogg" type="audio/ogg" />
+            <source src="audio/answer_correct.m4a" type="audio/mpeg" /> Your browser doesn't support the HTML audio tag.
+        </audio>
+        <audio id="ans_wrong">
+            <source src="audio/answer_wrong.ogg" type="audio/ogg" />
+            <source src="audio/answer_wrong.m4a" type="audio/mpeg" /> Your browser doesn't support the HTML audio tag.
+        </audio>
+        <audio id="activity_done">
+            <source src="audio/activity_done.ogg" type="audio/ogg" />
+            <source src="audio/activity_done.m4a" type="audio/mpeg" /> Your browser doesn't support the HTML audio tag.
+        </audio>
+        <audio id="activity_start">
+            <source src="audio/activity_start.ogg" type="audio/ogg" />
+            <source src="audio/activity_start.m4a" type="audio/mpeg" /> Your browser doesn't support the HTML audio tag.
+        </audio>
+        <audio id="menu_continue">
+            <source src="audio/menu_continue.ogg" type="audio/ogg" />
+            <source src="audio/menu_continue.m4a" type="audio/mpeg" /> Your browser doesn't support the HTML audio tag.
+        </audio>
+        <audio id="menu_exit">
+            <source src="audio/menu_exit.ogg" type="audio/ogg" />
+            <source src="audio/menu_exit.m4a" type="audio/mpeg" /> Your browser doesn't support the HTML audio tag.
+        </audio>
+        <audio id="menu_restart">
+            <source src="audio/menu_restart.ogg" type="audio/ogg" />
+            <source src="audio/menu_restart.m4a" type="audio/mpeg" /> Your browser doesn't support the HTML audio tag.
+        </audio>
+        <audio id="answer_correct">
+            <source src="audio/ans/answer_correct.ogg" type="audio/ogg" />
+            <source src="audio/ans/answer_correct.m4a" type="audio/mpeg" /> Your browser doesn't support the HTML audio tag.
+        </audio>
+        <audio id="answer_incorrect">
+            <source src="audio/ans/answer_incorrect.ogg" type="audio/ogg" />
+            <source src="audio/ans/answer_incorrect.m4a" type="audio/mpeg" /> Your browser doesn't support the HTML audio tag.
+        </audio>
+        <audio id="are_they_animals_people_plants">
+            <source src="audio/ans/are_they_animals_people_plants.ogg" type="audio/ogg" />
+            <source src="audio/ans/are_they_animals_people_plants.m4a" type="audio/mpeg" /> Your browser doesn't support the HTML audio tag.
+        </audio>
+        <audio id="here_are_nine_pictures">
+            <source src="audio/ans/here_are_nine_pictures.ogg" type="audio/ogg" />
+            <source src="audio/ans/here_are_nine_pictures.m4a" type="audio/mpeg" /> Your browser doesn't support the HTML audio tag.
+        </audio>
+        <audio id="sort_the_picture">
+            <source src="audio/ans/sort_the_picture.ogg" type="audio/ogg" />
+            <source src="audio/ans/sort_the_picture.m4a" type="audio/mpeg" /> Your browser doesn't support the HTML audio tag.
+        </audio>
+        <audio id="you_sorted_animal_people_plants">
+            <source src="audio/ans/you_sorted_animal_people_plants.ogg" type="audio/ogg" />
+            <source src="audio/ans/you_sorted_animal_people_plants.m4a" type="audio/mpeg" /> Your browser doesn't support the HTML audio tag.
+        </audio>
+    </div>
+</body>
+
+</html>

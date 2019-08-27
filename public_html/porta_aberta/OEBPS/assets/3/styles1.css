@@ -1,0 +1,96 @@
+@import "../../css/general.styles1.css";
+body > div.container {
+	position: relative;
+	overflow: hidden;
+	width: 2048px;
+	height: 1536px;
+	background-image: url(images/back.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.head {
+	font-family: "OpenDyslexic3_Bold";
+	text-align: center;
+	margin-top: 100px;
+	color: #E13E43;
+	width: 1500px;
+	line-height: 100px;
+	font-size: 69px;
+	margin: 80px auto;
+}
+.chp_img {
+	position: absolute;
+	top: 410px;
+	left: 100px;
+	overflow: hidden;
+	width: 1348px;
+	height: auto;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-radius: 0;
+}
+.finding_act {
+	position: absolute;
+	top: 410px;
+	left: 1510px;
+	overflow: hidden;
+	width: 470px;
+	height: 410px;
+	background-image: url(images/finding.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.listening_act {
+	position: absolute;
+	top: 920px;
+	left: 1510px;
+	overflow: hidden;
+	width: 470px;
+	height: 410px;
+	background-image: url(images/listen.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.text_s {
+	position: absolute;
+	bottom: 20px;
+	left: 6px;
+	font-family: OpenDyslexic3;
+	font-weight: normal;
+	text-align: center;
+	color: white;
+	line-height: 100px;
+	font-size: 50px;
+	width: 470px;
+	line-height: 80px;
+}
+
+.highlight {
+	background-color: rgba(102, 0, 255, 0.7) !important;
+    color: white !important;
+	border-color: transparent !important;
+	border-radius: 0.2em !important;
+	display: inline-block;
+	padding: 0px 15px 20px 15px;
+	margin: 0px;
+}
+.-epub-media-overlay-active {
+	background-color: rgba(102, 0, 255, 0.7) !important;
+    color: white !important;
+	border-color: transparent !important;
+	border-radius: 0.2em !important;
+	display: inline-block;
+	padding: 0px 15px 20px 15px;
+	margin: 0px;
+}
+#page_w1, #page_w2, #page_w3, #page_w4, #page_w5, #page_w6, #page_w7 {
+	border-color: transparent !important;
+	border-radius: 0.2em !important;
+	display: inline-block;
+	padding: 0px 15px 20px 15px;
+	margin: 0px;
+}
+#page_s1, #page_s2, #page_s3, #page_s4, #page_s5 {
+	padding: 0px !important;
+	margin: 0px;
+}

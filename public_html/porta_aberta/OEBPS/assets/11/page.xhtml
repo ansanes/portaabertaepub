@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ibooks="http://apple.com/ibooks/html-extensions">
+<head>
+		<meta charset="utf-8"/>
+    	<title>Labeling Activity</title>
+		<meta name="viewport" content="width=2048, height=1536" /> 
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<script type="text/javascript" src="../../js/jquery.js"></script>
+                <script type="text/javascript" src="../../js/pageFunctions.js"></script>
+		<script type="text/javascript" src="custom.js"></script>
+</head>
+<body>
+
+<div class="container">
+<!--<div class="d_audio">Disable Audio</div>
+<div class="a_audio d_none">Allow Audio</div>-->
+
+<div id="screen1" style="display: block;">
+<div class="container1">
+<div class="blue_back"><img src="../images/both1.png" alt="" class="eye" /></div>
+<div class="head_0"><span id="page_s1"></span><span id="page_w1">Labeling Activity</span></div>
+<div class="head_text"><span id="page_w2">Help us label the different<br/>parts of the body!</span></div>
+<img src="images/group.png" class="pic_img1" alt="IMAGE. A girl with a yellow a white striped shirt playing jump rope. END IMAGE" />
+<div class="play_btn pos">PLAY</div>
+</div>
+</div>
+
+<div id="screen2" style="display: none;">
+<div class="head_3"><span>Try to name each part of the body!</span></div>
+<img src="images/group.png" class="pic_img3" alt="IMAGE. A girl with a yellow a white striped shirt playing jump rope. END IMAGE" />
+<div class="sc_3_icon icon_pic d_none"></div>
+<div class="sc_5_icon icon_pic d_none"></div>
+<div class="sc_4_icon icon_pic d_none"></div>
+<div class="sc_4a_icon icon_pic d_none"></div>
+<div class="sc_6_icon icon_pic d_none"></div>
+<div class="sc_6a_icon icon_pic d_none"></div>
+<div class="sc_7_icon icon_pic d_none"></div>
+<div class="sc_8_icon icon_pic d_none"></div>
+<div class="sc_9_icon icon_pic d_none"></div>
+<div class="d1 d_none">HEAD<span class="d1_span"></span></div>
+<div class="d2 d_none">NECK<span class="d2_span"></span></div>
+<div class="d3 d_none">ARMS<span class="d3_span"></span></div>
+<div class="d4 d_none">HANDS<span class="d4_span"></span></div>
+<div class="d5 d_none">TORSO<span class="d5_span"></span></div>
+<div class="d6 d_none">LEGS<span class="d6_span"></span></div>
+<div class="d7 d_none">FEET<span class="d7_span"></span></div>
+<div class="circle">
+<div class="cir cir_pos1"><span class="cir_1"></span></div>
+<div class="cir cir_pos2"><span class="cir_1"></span></div>
+<div class="cir cir_pos3"><span class="cir_1"></span></div>
+<div class="cir cir_pos4"><span class="cir_1"></span></div>
+<div class="cir cir_pos5"><span class="cir_1"></span></div>
+<div class="cir cir_pos6"><span class="cir_1"></span></div>
+<div class="cir cir_pos7"><span class="cir_1"></span></div>
+<div class="cir cir_pos8"><span class="cir_1"></span></div>
+<div class="cir cir_pos9"><span class="cir_1"></span></div>
+</div>
+<div class="border_3">
+<p class="popup_text1"><span>Select a part of<br/>the body, read<br/>the clue and choose<br/>an answer.</span></p>
+</div>
+<div class="bottom_bar">
+	<div class="exit">
+		<p class="b_text">Exit</p>
+	</div>
+	<div class="restart">
+		<p class="b_text">Restart</p>
+	</div>
+	<div class="cont" id="cont2">
+		<p class="b_text1">Continue</p>
+	</div>
+<div class="disable"></div>
+</div>
+<div class="disable_b"></div>
+</div>
+
+<div id="screen3" style="display: none;">
+<div class="border_3">
+<p class="popup_text"><span>What part of the girl's body has eyes, a nose, and a mouth?</span></p>
+<div class="btn_pos">
+<div class="s3_a pos1 r1 HEAD">HEAD</div>
+<div class="s3_a pos2 w1 NECK">NECK</div>
+<div class="s3_a pos3 w1 TORSO">TORSO</div>
+<div class="s3_a pos4 w1 ARMS">ARMS</div>
+<div class="s3_a pos5 w1 HANDS">HANDS</div>
+<div class="s3_a pos6 w1 LEGS">LEGS</div>
+<div class="s3_a pos7 w1 FEET">FEET</div>
+</div>
+</div>
+<div class="bottom_bar">
+	<div class="exit">
+		<p class="b_text">Exit</p>
+	</div>
+	<div class="restart">
+		<p class="b_text">Restart</p>
+	</div>
+	<div class="cont" id="cont3">
+		<p class="b_text1">Continue</p>
+	</div>
+<div class="disable"></div>
+</div>
+<div class="disable_b"></div>
+</div>
+
+<div id="screen4" style="display: none;">
+<div class="head_3">Try to name each part of the body!</div>
+<img src="images/group.png" class="pic_img3" alt="IMAGE. A girl with a yellow a white striped shirt playing jump rope. END IMAGE" />
+<img src="images/wrong_sign.png" class="right_wrong d_none" alt="" />
+<div class="border_3">
+<p class="popup_text"><span>What connects the girl's head to her body and lets her move her head?</span></p>
+<div class="btn_pos">
+<div class="s3_a pos1 w1 HEAD">HEAD</div>
+<div class="s3_a pos2 r1 NECK">NECK</div>
+<div class="s3_a pos3 w1 TORSO">TORSO</div>
+<div class="s3_a pos4 w1 ARMS">ARMS</div>
+<div class="s3_a pos5 w1 HANDS">HANDS</div>
+<div class="s3_a pos6 w1 LEGS">LEGS</div>
+<div class="s3_a pos7 w1 FEET">FEET</div>
+</div>
+</div>
+<div class="bottom_bar">
+	<div class="exit">
+		<p class="b_text">Exit</p>
+	</div>
+	<div class="restart">
+		<p class="b_text">Restart</p>
+	</div>
+	<div class="cont" id="cont4">
+		<p class="b_text1">Continue</p>
+	</div>
+<div class="disable"></div>
+</div>
+<div class="disable_b"></div>
+</div>
+
+<div id="screen5" style="display: none;">
+<div class="head_3">Try to name each part of the body!</div>
+<img src="images/group.png" class="pic_img3" alt="IMAGE. A girl with a yellow a white striped shirt playing jump rope. END IMAGE" />
+<img src="images/wrong_sign.png" class="right_wrong d_none" alt="" />
+<div class="border_3">
+<p class="popup_text"><span>What pair of limbs hang down from the girl's shoulders?</span></p>
+<div class="btn_pos">
+<div class="s3_a pos1 w1 HEAD">HEAD</div>
+<div class="s3_a pos2 w1 NECK">NECK</div>
+<div class="s3_a pos3 w1 TORSO">TORSO</div>
+<div class="s3_a pos4 r1 ARMS">ARMS</div>
+<div class="s3_a pos5 w1 HANDS">HANDS</div>
+<div class="s3_a pos6 w1 LEGS">LEGS</div>
+<div class="s3_a pos7 w1 FEET">FEET</div>
+</div>
+</div>
+<div class="bottom_bar">
+	<div class="exit">
+		<p class="b_text">Exit</p>
+	</div>
+	<div class="restart">
+		<p class="b_text">Restart</p>
+	</div>
+	<div class="cont" id="cont5">
+		<p class="b_text1">Continue</p>
+	</div>
+<div class="disable"></div>
+</div>
+<div class="disable_b"></div>
+</div>
+
+<div id="screen6" style="display: none;">
+<div class="head_3">Try to name each part of the body!</div>
+<img src="images/group.png" class="pic_img3" alt="IMAGE. A girl with a yellow a white striped shirt playing jump rope. END IMAGE" />
+<img src="images/wrong_sign.png" class="right_wrong d_none" alt="" />
+<div class="border_3">
+<p class="popup_text"><span>What part of the girl's body has fingers and holds the skipping rope?</span></p>
+<div class="btn_pos">
+<div class="s3_a pos1 w1 HEAD">HEAD</div>
+<div class="s3_a pos2 w1 NECK">NECK</div>
+<div class="s3_a pos3 w1 TORSO">TORSO</div>
+<div class="s3_a pos4 w1 ARMS">ARMS</div>
+<div class="s3_a pos5 r1 HANDS">HANDS</div>
+<div class="s3_a pos6 w1 LEGS">LEGS</div>
+<div class="s3_a pos7 w1 FEET">FEET</div>
+</div>
+</div>
+<div class="bottom_bar">
+	<div class="exit">
+		<p class="b_text">Exit</p>
+	</div>
+	<div class="restart">
+		<p class="b_text">Restart</p>
+	</div>
+	<div class="cont" id="cont6">
+		<p class="b_text1">Continue</p>
+	</div>
+<div class="disable"></div>
+</div>
+<div class="disable_b"></div>
+</div>
+
+<div id="screen7" style="display: none;">
+<div class="head_3">Try to name each part of the body!</div>
+<img src="images/group.png" class="pic_img3" alt="IMAGE. A girl with a yellow a white striped shirt playing jump rope. END IMAGE" />
+<img src="images/wrong_sign.png" class="right_wrong d_none" alt="" />
+<div class="border_3">
+<p class="popup_text"><span>What part of the girl's body is covered in a yellow and white striped shirt and is connected to her arms and legs?</span></p>
+<div class="btn_pos">
+<div class="s3_a pos1 w1 HEAD">HEAD</div>
+<div class="s3_a pos2 w1 NECK">NECK</div>
+<div class="s3_a pos3 r1 TORSO">TORSO</div>
+<div class="s3_a pos4 w1 ARMS">ARMS</div>
+<div class="s3_a pos5 w1 HANDS">HANDS</div>
+<div class="s3_a pos6 w1 LEGS">LEGS</div>
+<div class="s3_a pos7 w1 FEET">FEET</div>
+</div>
+</div>
+<div class="bottom_bar">
+	<div class="exit">
+		<p class="b_text">Exit</p>
+	</div>
+	<div class="restart">
+		<p class="b_text">Restart</p>
+	</div>
+	<div class="cont" id="cont7">
+		<p class="b_text1">Continue</p>
+	</div>
+<div class="disable"></div>
+</div>
+<div class="disable_b"></div>
+</div>
+
+<div id="screen8" style="display: none;">
+<div class="head_3">Try to name each part of the body!</div>
+<img src="images/wrong_sign.png" class="right_wrong d_none" alt="" />
+<div class="border_3">
+<p class="popup_text"><span>What part of the body is the girl wearing blue jeans on and jumping off the ground with?</span></p>
+<div class="btn_pos">
+<div class="s3_a pos1 w1 HEAD">HEAD</div>
+<div class="s3_a pos2 w1 NECK">NECK</div>
+<div class="s3_a pos3 w1 TORSO">TORSO</div>
+<div class="s3_a pos4 w1 ARMS">ARMS</div>
+<div class="s3_a pos5 w1 HANDS">HANDS</div>
+<div class="s3_a pos6 r1 LEGS">LEGS</div>
+<div class="s3_a pos7 w1 FEET">FEET</div>
+</div>
+</div>
+<div class="bottom_bar">
+	<div class="exit">
+		<p class="b_text">Exit</p>
+	</div>
+	<div class="restart">
+		<p class="b_text">Restart</p>
+	</div>
+	<div class="cont" id="cont8">
+		<p class="b_text1">Continue</p>
+	</div>
+<div class="disable"></div>
+</div>
+<div class="disable_b"></div>
+</div>
+
+<div id="screen9" style="display: none;">
+<div class="head_3">Try to name each part of the body!</div>
+<img src="images/wrong_sign.png" class="right_wrong d_none" alt="" />
+<div class="border_3">
+<p class="popup_text"><span>What part of the body has toes and is covered by white shoes?</span></p>
+<div class="btn_pos">
+<div class="s3_a pos1 w1 HEAD">HEAD</div>
+<div class="s3_a pos2 w1 NECK">NECK</div>
+<div class="s3_a pos3 w1 TORSO">TORSO</div>
+<div class="s3_a pos4 w1 ARMS">ARMS</div>
+<div class="s3_a pos5 w1 HANDS">HANDS</div>
+<div class="s3_a pos6 w1 LEGS">LEGS</div>
+<div class="s3_a pos7 r1 FEET">FEET</div>
+</div>
+</div>
+<div class="bottom_bar">
+	<div class="exit">
+		<p class="b_text">Exit</p>
+	</div>
+	<div class="restart">
+		<p class="b_text">Restart</p>
+	</div>
+	<div class="cont last_page" id="cont9">
+		<p class="b_text1">Continue</p>
+	</div>
+<div class="disable"></div>
+</div>
+<div class="disable_b"></div>
+</div>
+
+<div id="screen10" style="display: none;">
+<div class="head_3a"><span>Well done! You named all the<br/>parts of the girl's body!</span></div>
+<img src="images/star.png" class="pic_img4" alt="IMAGE. A Star. END IMAGE" />
+<img src="images/done1.png" class="pic_img4_1" alt="IMAGE. A girl with a yellow a white striped shirt playing jump rope. END IMAGE" />
+<div class="done_txt d_pos1">HEAD</div>
+<div class="done_txt d_pos2">FEET</div>
+<div class="done_txt d_pos3">LEGS</div>
+<div class="done_txt d_pos4">HANDS</div>
+<div class="done_txt d_pos5">ARMS</div>
+<div class="done_txt d_pos6">NECK</div>
+<div class="done_txt d_pos7">TORSO</div>
+<div class="bottom_bar">
+	<div class="exit">
+		<p class="b_text">Exit</p>
+	</div>
+	<div class="restart">
+		<p class="b_text">Restart</p>
+	</div>
+	<div class="cont_done" id="cont10">
+	<div class="done">
+		<a href="../12/page.xhtml"><div class="b_text_w">Done</div></a>
+	</div>
+	</div>
+</div>
+</div>
+
+<audio id="ans_correct">
+<!--<source src="audio/answer_correct.wav" type="audio/wav"/>-->
+<source src="audio/answer_correct.ogg" type="audio/ogg"/>
+<source src="audio/answer_correct.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="ans_wrong">
+<!--<source src="audio/answer_correct.wav" type="audio/wav"/>-->
+<source src="audio/answer_wrong.ogg" type="audio/ogg"/>
+<source src="audio/answer_wrong.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="button_unavailable">
+<!--<source src="audio/answer_correct.wav" type="audio/wav"/>-->
+<source src="audio/button_unavailable.ogg" type="audio/ogg"/>
+<source src="audio/button_unavailable.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="activity_done">
+<!--<source src="audio/answer_wrong.wav" type="audio/wav"/>-->
+<source src="audio/activity_done.ogg" type="audio/ogg"/>
+<source src="audio/activity_done.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="activity_start">
+<!--<source src="audio/answer_wrong.wav" type="audio/wav"/>-->
+<source src="audio/activity_start.ogg" type="audio/ogg"/>
+<source src="audio/activity_start.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="menu_continue">
+<!--<source src="audio/answer_wrong.wav" type="audio/wav"/>-->
+<source src="audio/menu_continue.ogg" type="audio/ogg"/>
+<source src="audio/menu_continue.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="menu_exit">
+<!--<source src="audio/answer_wrong.wav" type="audio/wav"/>-->
+<source src="audio/menu_exit.ogg" type="audio/ogg"/>
+<source src="audio/menu_exit.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="menu_restart">
+<!--<source src="audio/answer_wrong.wav" type="audio/wav"/>-->
+<source src="audio/menu_restart.ogg" type="audio/ogg"/>
+<source src="audio/menu_restart.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="answer_correct">
+<source src="audio/ans/answer_correct.ogg" type="audio/ogg"/>
+<source src="audio/ans/answer_correct.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="answer_incorrect">
+<source src="audio/ans/answer_incorrect.ogg" type="audio/ogg"/>
+<source src="audio/ans/answer_incorrect.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="question_arms">
+<source src="audio/ans/question_arms.ogg" type="audio/ogg"/>
+<source src="audio/ans/question_arms.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="question_feet">
+<source src="audio/ans/question_feet.ogg" type="audio/ogg"/>
+<source src="audio/ans/question_feet.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="question_hands">
+<source src="audio/ans/question_hands.ogg" type="audio/ogg"/>
+<source src="audio/ans/question_hands.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="question_head">
+<source src="audio/ans/question_head.ogg" type="audio/ogg"/>
+<source src="audio/ans/question_head.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="question_legs">
+<source src="audio/ans/question_legs.ogg" type="audio/ogg"/>
+<source src="audio/ans/question_legs.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="question_neck">
+<source src="audio/ans/question_neck.ogg" type="audio/ogg"/>
+<source src="audio/ans/question_neck.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="question_torso">
+<source src="audio/ans/question_torso.ogg" type="audio/ogg"/>
+<source src="audio/ans/question_torso.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="select_a_part">
+<source src="audio/ans/select_a_part.ogg" type="audio/ogg"/>
+<source src="audio/ans/select_a_part.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="try_to_name_each_part">
+<source src="audio/ans/try_to_name_each_part.ogg" type="audio/ogg"/>
+<source src="audio/ans/try_to_name_each_part.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+<audio id="well_done_all_parts">
+<source src="audio/ans/well_done_all_parts.ogg" type="audio/ogg"/>
+<source src="audio/ans/well_done_all_parts.m4a" type="audio/mpeg"/>
+Your browser doesn't support the HTML audio tag.
+</audio>
+
+</div>
+</body>
+</html>

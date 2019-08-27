@@ -1,0 +1,264 @@
+div.SCContent {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+div.SCOverlay {
+	z-index: 2;
+}
+
+div#obj3077 {
+position: absolute;
+overflow: hidden;
+top: 122px;
+left: 487px;
+width: 1146px;
+height: 188px;
+opacity: 1;
+z-index: 3;
+display:block;
+pointer-events: auto;
+
+}
+div#obj3079 {
+position: absolute;
+overflow: hidden;
+top: 318px;
+left: 303px;
+width: 1531px;
+height: 588px;
+opacity: 1;
+z-index: 4;
+display:block;
+pointer-events: auto;
+
+}
+div#obj3093 {
+position: absolute;
+overflow: hidden;
+top: 558px;
+left: 1230px;
+width: 204px;
+height: 108px;
+opacity: 1;
+z-index: 8;
+display:block;
+pointer-events: auto;
+
+}
+div#obj3444 {
+position: absolute;
+overflow: hidden;
+top: 1445px;
+left: 870px;
+width: 280px;
+height: 58px;
+opacity: 1;
+z-index: 10;
+display:block;
+pointer-events: auto;
+
+}
+div#obj3148 {
+position: absolute;
+overflow: hidden;
+top: 0px;
+left: 0px;
+width: 2048px;
+height: 1408px;
+opacity: 0.15;
+z-index: 1;
+display:block;
+pointer-events: none;
+
+}
+img#obj3148_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 2048px;
+	height: 1408px;
+}
+div#obj3075 {
+position: absolute;
+overflow: hidden;
+top: 48px;
+left: 1908px;
+width: 81px;
+height: 79px;
+opacity: 1;
+z-index: 2;
+display:block;
+pointer-events: none;
+
+}
+img#obj3075_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 81px;
+	height: 79px;
+}
+div#obj3084 {
+position: absolute;
+overflow: hidden;
+top: 602px;
+left: 824px;
+width: 490px;
+height: 490px;
+opacity: 1;
+z-index: 6;
+display:block;
+pointer-events: none;
+
+border-color: #FFFFFF;
+border-width: 15px;
+border-style: solid;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.6078431);
+-webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.6078431);
+-moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.6078431);
+}
+img#obj3084_img {
+	position: absolute;
+	left: -15px;
+	top: -15px;
+	width: 490px;
+	height: 490px;
+}
+div#obj3091 {
+position: absolute;
+overflow: hidden;
+top: 506px;
+left: 1162px;
+width: 314px;
+height: 211px;
+opacity: 1;
+z-index: 7;
+display:block;
+pointer-events: none;
+
+}
+img#obj3091_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 314px;
+	height: 211px;
+}
+div#obj3110 {
+position: absolute;
+overflow: hidden;
+top: 48px;
+left: 1739px;
+width: 137px;
+height: 76px;
+opacity: 1;
+z-index: 9;
+display:block;
+pointer-events: none;
+
+}
+img#obj3110_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 137px;
+	height: 76px;
+}
+div#obj961 {
+position: absolute;
+overflow: hidden;
+top: 1432px;
+left: 23px;
+width: 118px;
+height: 88px;
+opacity: 1;
+z-index: 13;
+display:block;
+pointer-events: none;
+
+}
+img#obj961_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 118px;
+	height: 88px;
+}
+
+button#obj3081 {
+	cursor: pointer;
+	position: absolute;
+overflow: hidden;
+top: 1200px;
+left: 728px;
+width: 664px;
+height: 144px;
+opacity: 1;
+z-index: 5;
+display:block;
+pointer-events: auto;
+
+	border-color: #FFFFFF;
+	border-width: 8px;
+	border-style: solid;
+	border-radius: 13px;
+	-moz-border-radius: 13px;
+	-webkit-border-radius: 13px;
+	background-color: #37D100;
+	font-family:"OpenDyslexic3";
+	font-size: 54px;
+	color: #FFFFFF; 
+}
+button#obj3081:active { -webkit-box-shadow: inset 2px 2px 7px rgba(0, 0, 0, 0.125); }
+
+
+div#obj3055 {
+position: absolute;
+overflow: hidden;
+top: 0px;
+left: 0px;
+width: 2048px;
+height: 1408px;
+opacity: 1;
+z-index: 0;
+display:block;
+pointer-events: none;
+
+background-image: none;
+border-color: #000000;
+border-width: 0px;
+border-style: solid;
+border-radius: 0px;
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+background-color: #0499FF;
+background-repeat: repeat;
+}
+div#obj2995 {
+position: absolute;
+overflow: hidden;
+top: 1407px;
+left: -13px;
+width: 2074px;
+height: 134px;
+opacity: 1;
+z-index: 12;
+display:block;
+pointer-events: none;
+
+background-image: none;
+border-color: rgba(142,142,142,0.627451);
+border-width: 1px;
+border-style: solid;
+border-radius: 0px;
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+background-color: rgba(174,174,174,0.2039216);
+background-repeat: repeat;
+}
+.SCPage {
+background-color: #FFFFFF
+}

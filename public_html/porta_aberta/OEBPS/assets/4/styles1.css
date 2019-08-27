@@ -1,0 +1,123 @@
+@import "../../css/general.styles1.css";
+body > div.container {
+	position: relative;
+	overflow: hidden;
+	width: 2048px;
+	height: 1536px;
+	background-color: #0099FF;
+}
+div.container1 {
+	position: relative;
+	overflow: hidden;
+	width: 2048px;
+	height: 1536px;
+	background-image: url(../images/back0.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+div.blue_back {
+	position: relative;
+	overflow: hidden;
+	width: 1918px;
+	height: 1416px;
+	background-color: #0099FF;
+	opacity: 0.7;
+	margin: 60px;
+	border-radius: 60px;
+}
+.head {
+	font-family: "OpenDyslexic3";
+	color: white;
+	line-height: 100px;
+	font-size: 90px;
+	position: absolute;
+	top: 130px;
+	left: 0px;
+	width: 2000px;
+	text-align: center;
+}
+.head_text {
+	font-family: "OpenDyslexic3";
+	text-align: center;
+	color: white;
+	width: 1500px;
+	line-height: 70px;
+	font-size: 50px;
+	position: absolute;
+	top: 300px;
+	left: 0px;
+	width: 2000px;
+}
+.chp_img {
+	position: absolute;
+	top: 120px;
+	left: 100px;
+	overflow: hidden;
+	width: 2048px;
+	height: 1536px;
+	background-image: url(images/back_01.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.chp_img {
+	position: absolute;
+	top: 340px;
+	left: 100px;
+	overflow: hidden;
+	width: 1348px;
+	height: 1020px;
+	background-image: url(images/back_01.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-radius: 160px;
+}
+.finding_act {
+	position: absolute;
+	top: 410px;
+	left: 1510px;
+	overflow: hidden;
+	width: 470px;
+	height: 410px;
+	background-image: url(images/finding.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.listening_act {
+	position: absolute;
+	top: 920px;
+	left: 1510px;
+	overflow: hidden;
+	width: 470px;
+	height: 410px;
+	background-image: url(images/listen.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.text_s {
+	position: absolute;
+	bottom: 20px;
+	left: 6px;
+	font-family: OpenDyslexic3;
+	font-weight: normal;
+	text-align: center;
+	color: white;
+	line-height: 100px;
+	font-size: 50px;
+	width: 470px;
+	line-height: 80px;
+}
+.pic_img {
+	position: absolute;
+	top: 520px;
+	left: 526px;
+	width: 1020px;
+	height: 690px;
+	/* box-shadow: 2px 6px 31px black; */
+}
+.eye {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	width: 140px;
+	height: 80px;
+}
