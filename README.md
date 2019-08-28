@@ -1,4 +1,4 @@
-### Porta Aberta EPUb
+### Porta Aberta EPUB
 
 This project is an example to demonstate the usage of advanced accesibility features in epub publications.
 
