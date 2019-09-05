@@ -1,4 +1,4 @@
-### Porta Aberta EPUB
+# Porta Aberta EPUB
 
 This is an exmaple ePub 3 publication. 
 
@@ -6,7 +6,7 @@ This project is an example to demonstate the usage of advanced accesibility feat
 
 This epub is used in the learn my way application which can be found here: https://github.com/ansanes/learnmywayreader.
 
-## Generating the epub file
+### Generating the epub file
 
 The project includes a gulp file (gulpfile.js) that can be used to package all the assets into an .epub file.
 
