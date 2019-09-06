@@ -22,13 +22,13 @@ Those activities were developed using custom javascript code:
 
 This is the list of available activities and their page indexes.
 
-Page 4 - Finding activity
-Page 5 - Listening activity
-Page 6 - Sorting activity
-Page 7 - Memeory Activity
-Page 11 - Labeling Activity
-Page 12 - Spelling Activity
-Page 13 - True or False Activity
-Page 15 - Matching Activity
+- Page 4 - Finding activity
+- Page 5 - Listening activity
+- Page 6 - Sorting activity
+- Page 7 - Memeory Activity
+- Page 11 - Labeling Activity
+- Page 12 - Spelling Activity
+- Page 13 - True or False Activity
+- Page 15 - Matching Activity
 
 The source files for each activity can be found in the corresponding public_html/porta_aberta/OEBPS/assets subfolder including all the activity media assets, html, CSS and javascript files.
